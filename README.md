@@ -1,4 +1,4 @@
-# ŻABKA
+# Ż.A.B.K.A.
 
 **Zero-moment Assisted Bipedal Kinetic Android**
 
