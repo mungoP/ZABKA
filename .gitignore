@@ -1,1 +1,27 @@
+# macOS
 .DS_Store
+
+
+#KiCad
+.history/ 
+*-backups/
+_autosave-*
+*.lck
+~*.lck
+fp-info-cache
+
+# Firmware builds 
+build/
+*.uf2
+*.elf
+*.bin
+*.hex
+*.map
+
+# Editors
+.vscode/ 
+.idea/
+
+# Python 
+__pychache__/
+.venv/ 
