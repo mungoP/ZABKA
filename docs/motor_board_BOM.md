@@ -4,8 +4,7 @@
 
 **Target:** One 12S (50.4 V full) motor board using the STSPIN32G4, AS5047P encoder, and CAN.
 
-**Assumptions:** 10 boards, JLCPCB Economic PCBA, single-sided SMT assembly, about 60 x 60 mm, 4 layers, and 2 oz outer copper. Prices are estimates in USD. Confirm prices, stock, footprints, and pinouts before ordering.
-
+**Assumptions:** 10 boards, JLCPCB Economic PCBA, single-sided SMT assembly, about 60 x 60 mm, 4 layers, and 2 oz outer copper. Prices are estimates in USD. 
 ---
 
 ## 1. Simple wiring
