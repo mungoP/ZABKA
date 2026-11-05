@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "zabka") (type "KiCad") (uri "${KIPRJMOD}/../../lib/kicad/zabka.kicad_sym") (options "") (descr ""))
+)

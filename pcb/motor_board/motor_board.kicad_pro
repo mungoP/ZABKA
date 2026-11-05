@@ -645,13 +645,42 @@
       {
         "filename": "motor_board.kicad_sch",
         "name": "motor_board",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1-3",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5",
+      "motor_board"
+    ],
+    [
+      "f1197683-a7c1-48e7-86f8-bf75fe1a1531",
+      "Power input"
+    ],
+    [
+      "8ea7fc28-1044-424f-9c94-807a440d994d",
+      "Controller"
+    ],
+    [
+      "f7fdd894-b608-49fd-8039-eb6ca221a233",
+      "Half bridge"
+    ],
+    [
+      "8cf0a3f2-4fb6-4667-9720-968d01a8dd39",
+      "Monitoring"
+    ],
+    [
+      "57d52613-8de0-4f29-b85b-01f67958a13a",
+      "Encoder"
+    ],
+    [
+      "10939cb9-7215-4c84-a62b-cce0f7c860f2",
+      "CAN bus"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
