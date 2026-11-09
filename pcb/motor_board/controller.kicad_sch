@@ -5328,6 +5328,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VCC"
 			(power global)
 			(pin_numbers
@@ -7481,7 +7596,7 @@
 	)
 	(text "Pg 18 Figure 10: LDO supplied with external resistors \nto reduce heat due to VCC running at 12V rather than \ndefault 8V"
 		(exclude_from_sim no)
-		(at 243.586 103.378 0)
+		(at 251.206 103.378 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -7489,6 +7604,17 @@
 			(justify left)
 		)
 		(uuid "271eff9b-aa65-44b9-99f8-e81cc0e33619")
+	)
+	(text "optional encoder \non output shaft\n"
+		(exclude_from_sim no)
+		(at 117.602 80.264 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "9f6b7350-f6ca-4176-a2bf-7a90168ff198")
 	)
 	(text "BOOT0 pulled low ensures boot \ninto program over ST's built-\nin bootloader "
 		(exclude_from_sim no)
@@ -7723,8 +7849,8 @@
 	)
 	(text_box "REGIN (LDO input)\n"
 		(exclude_from_sim no)
-		(at 243.84 71.12 0)
-		(size 26.035 29.845)
+		(at 251.46 71.12 0)
+		(size 32.385 29.845)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -7742,19 +7868,13 @@
 		(uuid "d8377d22-22a9-4d7e-b366-09e4249d784c")
 	)
 	(junction
-		(at 247.65 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02773cfe-7be6-45c0-8f73-d3432e94ec99")
-	)
-	(junction
 		(at 260.35 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0281c83e-488e-4b06-9afc-39f36b10e318")
 	)
 	(junction
-		(at 255.27 97.79)
+		(at 270.51 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0704fc70-c257-43e8-a107-00ea50a555bc")
@@ -7766,13 +7886,19 @@
 		(uuid "162d2dee-4a47-4dbe-a462-0ba0eeb58ad1")
 	)
 	(junction
+		(at 209.55 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18ebc9d5-1ff0-4e29-9903-80ad5254e1eb")
+	)
+	(junction
 		(at 180.34 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19fb3d1b-eaa0-4b76-9045-a1c44bdccd28")
 	)
 	(junction
-		(at 255.27 76.2)
+		(at 270.51 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "312536bb-100e-4c29-baef-6d2412ab817d")
@@ -7862,16 +7988,16 @@
 		(uuid "a54e0f12-7933-4859-b821-924100222ec2")
 	)
 	(junction
+		(at 262.89 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a84a8473-7e17-4822-9d38-9892034360e7")
+	)
+	(junction
 		(at 222.25 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8e54ea0-15fe-46ba-9681-edc8f3e50bed")
-	)
-	(junction
-		(at 231.14 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aee131c0-102f-4c2c-8537-bacee4bd58c0")
 	)
 	(junction
 		(at 222.25 97.79)
@@ -7886,10 +8012,10 @@
 		(uuid "bc6cbfee-b4bb-4dcb-b844-916ad5bdd6f4")
 	)
 	(junction
-		(at 231.14 97.79)
+		(at 220.98 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c61ac1c4-b44f-46c7-87da-85e13460fa7a")
+		(uuid "c227a39f-5630-4370-8d9b-c5b6bc085dda")
 	)
 	(junction
 		(at 58.42 140.97)
@@ -7898,19 +8024,13 @@
 		(uuid "c7e73083-b49e-4658-9d7c-d073567f9432")
 	)
 	(junction
-		(at 209.55 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1194dbd-c48a-4dd7-82f4-df5c36d89008")
-	)
-	(junction
 		(at 168.91 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d26a6742-af88-491e-ab2f-8681ccf20266")
 	)
 	(junction
-		(at 247.65 97.79)
+		(at 262.89 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d40e8d79-fd89-4420-b66a-4b750143754b")
@@ -8063,6 +8183,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 87.63) (xy 209.55 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1091dcc0-ee01-4757-ab91-6170beaf533b")
+	)
+	(wire
+		(pts
 			(xy 57.15 91.44) (xy 60.96 91.44)
 		)
 		(stroke
@@ -8153,16 +8283,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 97.79) (xy 237.49 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "246991ec-a888-450a-a2b0-d70489b5ef19")
-	)
-	(wire
-		(pts
 			(xy 163.83 153.67) (xy 166.37 153.67)
 		)
 		(stroke
@@ -8243,7 +8363,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 76.2) (xy 255.27 76.2)
+			(xy 278.13 76.2) (xy 270.51 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8310,16 +8430,6 @@
 			(type default)
 		)
 		(uuid "359f1108-651a-4799-b3ff-b7a9f1a3e09c")
-	)
-	(wire
-		(pts
-			(xy 247.65 97.79) (xy 247.65 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "362c4122-664b-42d1-9264-6449f3fb143a")
 	)
 	(wire
 		(pts
@@ -8403,16 +8513,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 87.63) (xy 209.55 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "454f553f-7036-460c-bed0-eb9dce262404")
-	)
-	(wire
-		(pts
 			(xy 96.52 50.8) (xy 99.06 50.8)
 		)
 		(stroke
@@ -8463,7 +8563,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 76.2) (xy 247.65 76.2)
+			(xy 270.51 76.2) (xy 262.89 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8523,7 +8623,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 97.79) (xy 247.65 97.79)
+			(xy 270.51 97.79) (xy 262.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8683,7 +8783,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 82.55) (xy 262.89 76.2)
+			(xy 278.13 82.55) (xy 278.13 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8783,6 +8883,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 81.28) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c775ae-8771-4cea-bac0-df4a0bbc0e09")
+	)
+	(wire
+		(pts
 			(xy 55.88 43.18) (xy 60.96 43.18)
 		)
 		(stroke
@@ -8790,6 +8900,16 @@
 			(type default)
 		)
 		(uuid "85e881f9-ee7c-4006-aef4-d21338f59eb8")
+	)
+	(wire
+		(pts
+			(xy 222.25 76.2) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d28655-8bc3-494e-bf48-852a4bbeac11")
 	)
 	(wire
 		(pts
@@ -8843,7 +8963,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 90.17) (xy 247.65 97.79)
+			(xy 262.89 90.17) (xy 262.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8943,6 +9063,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 97.79) (xy 248.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961ba66c-ca74-4ea9-b3d7-ed10743a8bd6")
+	)
+	(wire
+		(pts
 			(xy 104.14 148.59) (xy 106.68 148.59)
 		)
 		(stroke
@@ -8993,17 +9123,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 76.2) (xy 247.65 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4f2a0a0-366c-45f3-aa4e-c5035cdbace0")
-	)
-	(wire
-		(pts
-			(xy 262.89 90.17) (xy 262.89 97.79)
+			(xy 278.13 90.17) (xy 278.13 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9053,7 +9173,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 82.55) (xy 247.65 76.2)
+			(xy 262.89 82.55) (xy 262.89 76.2)
 		)
 		(stroke
 			(width 0)
@@ -9063,13 +9183,23 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 90.17) (xy 255.27 97.79)
+			(xy 270.51 90.17) (xy 270.51 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ac15d02e-f67e-4612-935f-633389686a75")
+	)
+	(wire
+		(pts
+			(xy 248.92 76.2) (xy 248.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb13a55-9f8f-4c57-a529-bb12b9f3b3d4")
 	)
 	(wire
 		(pts
@@ -9110,6 +9240,16 @@
 			(type default)
 		)
 		(uuid "b0e083d0-4eff-44f4-b47f-d2c242a5ba4d")
+	)
+	(wire
+		(pts
+			(xy 248.92 97.79) (xy 252.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13acdfd-2493-4149-b6f5-bb0f705b9358")
 	)
 	(wire
 		(pts
@@ -9203,13 +9343,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 146.05) (xy 53.34 151.13)
+			(xy 53.34 146.05) (xy 53.34 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c74071ec-8561-4e69-ac68-21985aa25ca3")
+	)
+	(wire
+		(pts
+			(xy 262.89 97.79) (xy 262.89 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7463ae6-b3d9-4d92-9ced-c9c3345fa40a")
 	)
 	(wire
 		(pts
@@ -9233,7 +9383,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 82.55) (xy 255.27 76.2)
+			(xy 270.51 82.55) (xy 270.51 76.2)
 		)
 		(stroke
 			(width 0)
@@ -9250,6 +9400,16 @@
 			(type default)
 		)
 		(uuid "d52c989f-0f8e-4cfc-98f3-6be91790a816")
+	)
+	(wire
+		(pts
+			(xy 96.52 78.74) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d788834b-694d-41a8-a718-e308d1a12496")
 	)
 	(wire
 		(pts
@@ -9303,7 +9463,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 97.79) (xy 245.11 97.79)
+			(xy 262.89 97.79) (xy 260.35 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9393,7 +9553,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 97.79) (xy 255.27 97.79)
+			(xy 278.13 97.79) (xy 270.51 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9430,6 +9590,16 @@
 			(type default)
 		)
 		(uuid "f6d7792f-180b-408f-82ff-9b4e761fe32a")
+	)
+	(wire
+		(pts
+			(xy 248.92 76.2) (xy 262.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95d6384-f502-41bf-9d2e-f3c727e231ad")
 	)
 	(wire
 		(pts
@@ -9572,7 +9742,7 @@
 		(uuid "6cf019e5-ea93-4660-ba65-a44c57fdd21c")
 	)
 	(label "REGIN"
-		(at 247.65 100.33 0)
+		(at 262.89 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9681,6 +9851,17 @@
 			(justify left)
 		)
 		(uuid "031f0b23-1a6c-4427-8a91-9f5d3929fa7f")
+	)
+	(hierarchical_label "OUTPUT_ENC_SCL"
+		(shape bidirectional)
+		(at 99.06 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05df757e-deff-428d-b880-82c04b934b52")
 	)
 	(hierarchical_label "OPP1"
 		(shape bidirectional)
@@ -9979,6 +10160,17 @@
 		)
 		(uuid "e23a4cd0-3000-467d-aac7-093ac8da787c")
 	)
+	(hierarchical_label "OUTPUT_ENC_SDA"
+		(shape bidirectional)
+		(at 99.06 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec865b6c-7857-441e-9cd8-55fe27701430")
+	)
 	(hierarchical_label "OPP2"
 		(shape bidirectional)
 		(at 57.15 78.74 180)
@@ -10078,7 +10270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06b0917b-b2c3-46bc-995b-c19c09fd8b95")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR024"
 			(at 180.34 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10138,7 +10330,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "#PWR?")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10232,7 +10424,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a43ce27-43a5-4fde-ae83-2ec408a1a221")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR025"
 			(at 180.34 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10292,7 +10484,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "#PWR?")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10300,7 +10492,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0805,4.7uF")
-		(at 241.3 97.79 90)
+		(at 256.54 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10309,8 +10501,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "111e1909-5e38-4a0d-b8b0-515101baabb7")
-		(property "Reference" "C?"
-			(at 238.76 96.266 90)
+		(property "Reference" "C14"
+			(at 254 96.266 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10320,7 +10512,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 241.3 94.488 90)
+			(at 256.54 94.488 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10330,7 +10522,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0805"
-			(at 241.3 99.568 90)
+			(at 256.54 99.568 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10341,7 +10533,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10352,7 +10544,7 @@
 			)
 		)
 		(property "Description" "25V 4.7uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10363,7 +10555,7 @@
 			)
 		)
 		(property "LCSC" "C1779"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10374,7 +10566,7 @@
 			)
 		)
 		(property "Stock" "1824431"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10385,7 +10577,7 @@
 			)
 		)
 		(property "Price" "0.015USD"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10396,7 +10588,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10407,7 +10599,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10418,7 +10610,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10429,7 +10621,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10440,7 +10632,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10451,7 +10643,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10462,7 +10654,7 @@
 			)
 		)
 		(property "Part" "CL21A475KAQNNNE"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10473,7 +10665,7 @@
 			)
 		)
 		(property "Voltage Rated" "25V"
-			(at 243.586 96.266 90)
+			(at 258.826 96.266 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10483,7 +10675,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10494,7 +10686,7 @@
 			)
 		)
 		(property "Capacitance" "4.7uF"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10505,7 +10697,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 241.3 97.79 0)
+			(at 256.54 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10524,7 +10716,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10542,7 +10734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15993fc1-e7db-41ea-82ea-2c7e71552fcd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR022"
 			(at 143.51 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10602,7 +10794,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "#PWR?")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10620,7 +10812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "164fa6b5-a59d-4566-8f9e-d8dc281cf944")
-		(property "Reference" "X?"
+		(property "Reference" "X1"
 			(at 44.45 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10889,7 +11081,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "X?")
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -10906,7 +11098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b4b5d1c-0ad2-4f93-a7b4-860b14d87944")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 162.306 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10977,7 +11169,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10995,7 +11187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "240aba7b-d278-4e58-bf47-4531d07aa68c")
-		(property "Reference" "C?"
+		(property "Reference" "C9"
 			(at 224.79 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11213,7 +11405,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11231,7 +11423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "241928cd-74c0-4828-b5ab-1d7df051339e")
-		(property "Reference" "C?"
+		(property "Reference" "C11"
 			(at 237.49 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11449,7 +11641,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11457,7 +11649,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:1206,100Ω")
-		(at 255.27 86.36 0)
+		(at 270.51 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11467,8 +11659,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29d7b07d-2717-4f88-8831-fa48123e5240")
-		(property "Reference" "R?"
-			(at 257.81 86.3599 0)
+		(property "Reference" "R7"
+			(at 273.05 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11479,7 +11671,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 255.27 86.36 90)
+			(at 270.51 86.36 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11489,7 +11681,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_1206"
-			(at 253.492 86.36 90)
+			(at 268.732 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11500,7 +11692,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1000T5E_C17901.pdf"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11511,7 +11703,7 @@
 			)
 		)
 		(property "Description" "250mW Thick Film Resistors 200V ±100ppm/°C ±1% 100Ω 1206 Chip Resistor - Surface Mount ROHS"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11522,7 +11714,7 @@
 			)
 		)
 		(property "LCSC" "C17901"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11533,7 +11725,7 @@
 			)
 		)
 		(property "Stock" "1560750"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11544,7 +11736,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11555,7 +11747,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11566,7 +11758,7 @@
 			)
 		)
 		(property "Minimum Qty" "15"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11577,7 +11769,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11588,7 +11780,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11599,7 +11791,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11610,7 +11802,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11621,7 +11813,7 @@
 			)
 		)
 		(property "Part" "1206W4F1000T5E"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11632,7 +11824,7 @@
 			)
 		)
 		(property "Resistance" "100Ω"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11643,7 +11835,7 @@
 			)
 		)
 		(property "Power(Watts)" "250mW"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11654,7 +11846,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11665,7 +11857,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "200V"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11676,7 +11868,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11687,7 +11879,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11698,7 +11890,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 255.27 86.36 0)
+			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11717,7 +11909,85 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "R?")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 248.92 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a527f14-7681-445d-bd6d-8153ea1aecf5")
+		(property "Reference" "#PWR018"
+			(at 248.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 248.92 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 248.92 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f2e050a-6d43-4ea8-8c1d-85822a363ad9")
+		)
+		(instances
+			(project "motor_board"
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11735,7 +12005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f28bb36-e453-4f19-8e81-2b23ef85e65e")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 153.67 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11953,7 +12223,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12048,7 +12318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "310c5b9e-7270-4145-b8dc-f70bfc6e96b1")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 172.72 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12266,7 +12536,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -12283,7 +12553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "340cd665-0f34-4228-b1e0-42b2427d744d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR021"
 			(at 106.68 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12343,7 +12613,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "#PWR?")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12361,7 +12631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c8a589a-5246-44c4-97bc-3f73f60038ba")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR026"
 			(at 222.25 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12421,7 +12691,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "#PWR?")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12516,7 +12786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "437d27f6-5603-4ae5-931a-9178e1371937")
-		(property "Reference" "FB?"
+		(property "Reference" "FB1"
 			(at 224.79 45.6691 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12745,7 +13015,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "FB?")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -12918,7 +13188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5536e844-b92a-4430-8cb6-310eb4613d25")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 78.74 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13202,7 +13472,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -13219,7 +13489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "553994c1-6793-47b5-bafc-71c0beefe860")
-		(property "Reference" "C?"
+		(property "Reference" "C8"
 			(at 189.23 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13437,7 +13707,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13522,8 +13792,87 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 220.98 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "593e87f2-ecab-4314-b439-59eb6b35f943")
+		(property "Reference" "#FLG01"
+			(at 219.075 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 217.17 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 220.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f5622ec-87c0-4d1d-b70a-7d4b410f3e13")
+		)
+		(instances
+			(project "motor_board"
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:1206,100Ω")
-		(at 247.65 86.36 0)
+		(at 262.89 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13533,8 +13882,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67065873-7fac-42dc-9f87-de6802197889")
-		(property "Reference" "R?"
-			(at 250.19 86.3599 0)
+		(property "Reference" "R6"
+			(at 265.43 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13545,7 +13894,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 247.65 86.36 90)
+			(at 262.89 86.36 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -13555,7 +13904,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_1206"
-			(at 245.872 86.36 90)
+			(at 261.112 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13566,7 +13915,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1000T5E_C17901.pdf"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13577,7 +13926,7 @@
 			)
 		)
 		(property "Description" "250mW Thick Film Resistors 200V ±100ppm/°C ±1% 100Ω 1206 Chip Resistor - Surface Mount ROHS"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13588,7 +13937,7 @@
 			)
 		)
 		(property "LCSC" "C17901"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13599,7 +13948,7 @@
 			)
 		)
 		(property "Stock" "1560750"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13610,7 +13959,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13621,7 +13970,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13632,7 +13981,7 @@
 			)
 		)
 		(property "Minimum Qty" "15"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13643,7 +13992,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13654,7 +14003,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13665,7 +14014,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13676,7 +14025,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13687,7 +14036,7 @@
 			)
 		)
 		(property "Part" "1206W4F1000T5E"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13698,7 +14047,7 @@
 			)
 		)
 		(property "Resistance" "100Ω"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13709,7 +14058,7 @@
 			)
 		)
 		(property "Power(Watts)" "250mW"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13720,7 +14069,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13731,7 +14080,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "200V"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13742,7 +14091,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13753,7 +14102,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13764,7 +14113,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 247.65 86.36 0)
+			(at 262.89 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13783,7 +14132,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13801,7 +14150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67fb213d-764a-441a-b3ac-b0233c7bc33d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR019"
 			(at 55.88 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13861,7 +14210,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "#PWR?")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13879,7 +14228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a726b35-64e2-4c49-a7c5-2b35d07b854a")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 171.45 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14097,7 +14446,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -14114,7 +14463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "724b44b5-7d0b-40f7-bb45-42e9e950a384")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 182.118 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14363,7 +14712,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14381,7 +14730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "730cb78c-7ffd-4b6b-95f0-89bb87248ffe")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 60.96 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14599,7 +14948,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -14616,7 +14965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "748df2d1-21fd-4dc5-a727-26198a141521")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR023"
 			(at 143.51 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14676,7 +15025,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "#PWR?")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -14694,7 +15043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78f5c676-8c9f-4f3f-9a5e-b778f6f5d731")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 34.29 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14912,7 +15261,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -14930,7 +15279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80656455-96a1-411a-bd41-b0c739e3da1d")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 110.49 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15179,7 +15528,163 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "R?")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "zabka:PGND")
+		(at 222.25 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81821970-7b80-4044-ab99-1951223a6a27")
+		(property "Reference" "#PWR08"
+			(at 222.25 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 222.25 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e9bc99f-4392-4ed9-905f-bd5281a117cc")
+		)
+		(instances
+			(project "motor_board"
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83db691d-4c26-48ef-9884-f9ae63117018")
+		(property "Reference" "#PWR017"
+			(at 248.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11853733-e7b1-4a79-859f-757d2827e811")
+		)
+		(instances
+			(project "motor_board"
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15187,7 +15692,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:1206,100Ω")
-		(at 262.89 86.36 0)
+		(at 278.13 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15197,8 +15702,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84e354c3-daaf-4774-a428-2fbefab8c7bc")
-		(property "Reference" "R?"
-			(at 265.43 86.3599 0)
+		(property "Reference" "R8"
+			(at 280.67 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15209,7 +15714,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 262.89 86.36 90)
+			(at 278.13 86.36 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -15219,7 +15724,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_1206"
-			(at 261.112 86.36 90)
+			(at 276.352 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15230,7 +15735,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1000T5E_C17901.pdf"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15241,7 +15746,7 @@
 			)
 		)
 		(property "Description" "250mW Thick Film Resistors 200V ±100ppm/°C ±1% 100Ω 1206 Chip Resistor - Surface Mount ROHS"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15252,7 +15757,7 @@
 			)
 		)
 		(property "LCSC" "C17901"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15263,7 +15768,7 @@
 			)
 		)
 		(property "Stock" "1560750"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15274,7 +15779,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15285,7 +15790,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15296,7 +15801,7 @@
 			)
 		)
 		(property "Minimum Qty" "15"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15307,7 +15812,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15318,7 +15823,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15329,7 +15834,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15340,7 +15845,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15351,7 +15856,7 @@
 			)
 		)
 		(property "Part" "1206W4F1000T5E"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15362,7 +15867,7 @@
 			)
 		)
 		(property "Resistance" "100Ω"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15373,7 +15878,7 @@
 			)
 		)
 		(property "Power(Watts)" "250mW"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15384,7 +15889,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15395,7 +15900,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "200V"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15406,7 +15911,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15417,7 +15922,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15428,7 +15933,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 262.89 86.36 0)
+			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15447,7 +15952,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -15476,7 +15981,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.306 144.272 0)
+			(at 34.544 142.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15619,7 +16124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a18532e0-ed82-4159-8096-dacdf656de89")
-		(property "Reference" "C?"
+		(property "Reference" "C15"
 			(at 262.89 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15837,7 +16342,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -15854,7 +16359,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2502b31-67e9-4088-9d2f-2b529477bc0e")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 163.322 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16072,7 +16577,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -16090,7 +16595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4daa7c6-c9e0-4e3e-bb9c-ecd165d734f8")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 210.82 81.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16187,7 +16692,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "L?")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -16205,7 +16710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a575c1a3-b523-4e95-8a84-c6fcb3299ed3")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 146.05 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16455,7 +16960,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -16473,7 +16978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acd4c5da-be7a-4436-888a-443459ac4fd9")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 182.88 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16691,7 +17196,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -16864,7 +17369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc9d97d8-07a4-4863-8756-84eb1074b496")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR020"
 			(at 104.14 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -16924,7 +17429,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "#PWR?")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -16942,7 +17447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6565ade-6cb3-483c-85d4-76e9e4636131")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 120.5547 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17114,7 +17619,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -17132,7 +17637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8f87865-6e2d-448a-87a6-3592b52e7316")
-		(property "Reference" "C?"
+		(property "Reference" "C13"
 			(at 254 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17350,7 +17855,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -17368,7 +17873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd7d04ad-9a5c-41f8-b94d-cb576ad204d0")
-		(property "Reference" "C?"
+		(property "Reference" "C10"
 			(at 233.68 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17586,7 +18091,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -17681,7 +18186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d59c6b3c-d33c-41fe-878c-d676da581147")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 146.05 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17931,7 +18436,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -17948,7 +18453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6f7cb51-bb60-469f-8920-76a28e24dd4c")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 134.366 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18197,7 +18702,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -18293,7 +18798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f318079e-fdf9-42c4-b6d5-1e2d759a0bee")
-		(property "Reference" "C?"
+		(property "Reference" "C12"
 			(at 246.38 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18511,7 +19016,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "C?")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -18519,7 +19024,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 151.13 0)
+		(at 53.34 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18529,7 +19034,7 @@
 		(dnp no)
 		(uuid "f5b28ac8-046a-4db1-8052-b4933a3033ed")
 		(property "Reference" "#PWR013"
-			(at 53.34 157.48 0)
+			(at 53.34 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18540,7 +19045,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 155.956 0)
+			(at 53.34 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18550,7 +19055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 151.13 0)
+			(at 53.34 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18561,7 +19066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 151.13 0)
+			(at 53.34 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18572,7 +19077,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 151.13 0)
+			(at 53.34 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18606,7 +19111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9bbcb81-b272-493f-af5c-2bdf53790d54")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 212.09 92.3924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18670,85 +19175,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.25 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd363f4b-42fe-42a9-883e-fcd30db57a84")
-		(property "Reference" "#PWR08"
-			(at 222.25 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6244a06b-5bcf-452d-a9e4-1c88d142f61d")
-		)
-		(instances
-			(project "motor_board"
-				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "#PWR08")
+					(reference "D2")
 					(unit 1)
 				)
 			)
