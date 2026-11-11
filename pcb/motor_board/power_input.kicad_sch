@@ -2207,6 +2207,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2432,145 +2571,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VDD"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -3673,7 +3673,7 @@
 		)
 		(uuid "fb8a4c3e-af03-4cb6-ab0f-9c4d5a3f86c6")
 	)
-	(hierarchical_label "TEMP_SENSE"
+	(hierarchical_label "MOSFET_TEMP"
 		(shape output)
 		(at 54.61 121.92 0)
 		(effects
@@ -3718,7 +3718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00bb61a5-6b89-4ffa-8e05-b5894bdb26a2")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 71.12 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3778,7 +3778,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3795,7 +3795,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c0a6c1e-70bd-4d29-8e1f-1d206de6b7df")
-		(property "Reference" "TH?"
+		(property "Reference" "TH1"
 			(at 37.338 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3859,7 +3859,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "TH?")
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -3877,7 +3877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ceeca25-4ed6-4275-86a6-f1099aa5b299")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 105.41 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3937,7 +3937,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3955,7 +3955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d8dfd18-0617-4000-8b76-53912ac9e61a")
-		(property "Reference" "D?"
+		(property "Reference" "D3"
 			(at 106.68 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4239,7 +4239,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "D?")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4257,7 +4257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ed7b493-5e87-4609-82ac-a34126ca5451")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 102.87 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4317,7 +4317,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4335,7 +4335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6498b4ba-af93-4b04-8d7d-c04978e8b96c")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 40.005 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4397,7 +4397,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4415,7 +4415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69040840-2310-45e4-9350-e0a8b866b5dd")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 172.72 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4665,7 +4665,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "R?")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4683,7 +4683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71e1614f-73e6-4815-b33a-2c9982b961a1")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 102.87 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4743,7 +4743,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4761,7 +4761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73ecc8f9-04c1-42bf-80a8-3ff2b131c97c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR035"
 			(at 170.18 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4821,7 +4821,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "#PWR031")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4838,7 +4838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7697c78b-5b27-4cd9-b367-189811f49e50")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 96.52 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4900,7 +4900,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4918,7 +4918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77a4d6c0-5656-4146-8d9c-62a5c09a3a0b")
-		(property "Reference" "C?"
+		(property "Reference" "C17"
 			(at 66.04 45.0849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5015,7 +5015,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "C?")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5033,7 +5033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7eecd91e-cc26-4683-8172-3f13e4773c94")
-		(property "Reference" "C?"
+		(property "Reference" "C18"
 			(at 114.3 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5251,7 +5251,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "C?")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5348,7 +5348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9194131a-2519-45c4-8695-8cc69af20ff1")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 46.99 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5598,7 +5598,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5616,7 +5616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96ea48e0-fad7-4ee8-ad89-df7899549d91")
-		(property "Reference" "C?"
+		(property "Reference" "C19"
 			(at 167.64 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5834,7 +5834,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "C?")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5852,7 +5852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d482a1a-ed86-4391-b8e5-2c75bef2259e")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 107.95 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6102,7 +6102,85 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "R?")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 105.41 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a77545e2-3fdf-4a0f-8676-aacee8d7ad56")
+		(property "Reference" "#PWR033"
+			(at 105.41 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 105.41 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 105.41 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2caa5903-9af0-49d4-9ccb-1e802c92add7")
+		)
+		(instances
+			(project "motor_board"
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6120,7 +6198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a846ba8b-0656-4a3e-875a-4f2613709663")
-		(property "Reference" "TP?"
+		(property "Reference" "TP1"
 			(at 107.95 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6181,7 +6259,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "TP?")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6199,7 +6277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af7d6e4c-2087-42d4-9d43-8786f0a458a9")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR028"
 			(at 44.45 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6259,14 +6337,14 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "#PWR034")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
+		(lib_id "power:+3V3")
 		(at 44.45 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -6276,8 +6354,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b39f5357-efb4-48a8-8a4f-87cf17d045a0")
-		(property "Reference" "#PWR033"
+		(uuid "be0f8fea-59cb-4cee-b7af-990b1241f0f1")
+		(property "Reference" "#PWR027"
 			(at 44.45 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6288,7 +6366,7 @@
 				)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "+3V3"
 			(at 44.45 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6320,7 +6398,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 44.45 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6332,12 +6410,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea390372-48f7-425a-96fe-3613223ab9f4")
+			(uuid "9cc2c412-e0fa-4905-ab44-9aa52e30ad62")
 		)
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "#PWR033")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6355,7 +6433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be59bc0c-b5a9-4309-8f92-c80a5446ea26")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 71.12 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6415,7 +6493,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6433,7 +6511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c33d7031-5b96-4f99-92c4-86b37914b051")
-		(property "Reference" "TP?"
+		(property "Reference" "TP2"
 			(at 107.95 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6494,7 +6572,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "TP?")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6512,7 +6590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf497cda-090c-4c92-a20f-e727eb6df67e")
-		(property "Reference" "C?"
+		(property "Reference" "C16"
 			(at 53.34 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6730,7 +6808,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "C?")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -6748,7 +6826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d26c7bdb-9326-468c-840f-bf5234beef9e")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 176.53 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6998,85 +7076,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 105.41 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d92ad84d-7a65-4e91-860b-584ec96d46b7")
-		(property "Reference" "#PWR035"
-			(at 105.41 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDD"
-			(at 105.41 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 105.41 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6ec0c3f-49ec-492e-b004-fa86b4ccc661")
-		)
-		(instances
-			(project "motor_board"
-				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "#PWR035")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7094,7 +7094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee970053-6ef0-4d90-b8b8-a96f705dbe13")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 170.18 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7154,7 +7154,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)

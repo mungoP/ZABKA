@@ -674,7 +674,7 @@
         "uuid": "f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5"
       }
     ],
-    "used_designators": "#FLG1-4,#PWR1-36,C1-15,D1-2,FB1,J1,L1,R1-8,U1,X1",
+    "used_designators": "#FLG1-4,#PWR1-47,C1-19,D1-3,FB1,J1-3,L1,R1-12,TH1,TP1-2,U1,X1",
     "variants": []
   },
   "sheets": [
@@ -683,24 +683,32 @@
       "motor_board"
     ],
     [
-      "f1197683-a7c1-48e7-86f8-bf75fe1a1531",
-      "Power and monitoring"
-    ],
-    [
       "8ea7fc28-1044-424f-9c94-807a440d994d",
       "Controller"
     ],
     [
-      "f7fdd894-b608-49fd-8039-eb6ca221a233",
-      "Half bridge"
+      "f1197683-a7c1-48e7-86f8-bf75fe1a1531",
+      "Power and monitoring"
     ],
     [
-      "57d52613-8de0-4f29-b85b-01f67958a13a",
-      "Encoder"
+      "f7fdd894-b608-49fd-8039-eb6ca221a233",
+      "Half bridge - U"
+    ],
+    [
+      "6d2f08a9-6836-48e4-839b-afdffc1903fa",
+      "Half bridge - V"
+    ],
+    [
+      "1a9b9bf9-7ba1-487a-acc1-3dde737fa3c6",
+      "Half bridge - W"
     ],
     [
       "10939cb9-7215-4c84-a62b-cce0f7c860f2",
       "CAN bus"
+    ],
+    [
+      "57d52613-8de0-4f29-b85b-01f67958a13a",
+      "Encoder"
     ]
   ],
   "text_variables": {},
