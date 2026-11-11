@@ -5,6 +5,14 @@
 	(uuid "f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5")
 	(paper "A4")
 	(lib_symbols)
+	(no_connect
+		(at 143.51 151.13)
+		(uuid "6d58544c-e0df-4f98-8f0d-d5ac703c3ef6")
+	)
+	(no_connect
+		(at 139.7 151.13)
+		(uuid "ff5372f8-234d-48e0-8235-7278f225cae9")
+	)
 	(wire
 		(pts
 			(xy 82.55 97.79) (xy 104.14 97.79)
@@ -14,6 +22,16 @@
 			(type default)
 		)
 		(uuid "1818d0c6-6f39-4dbe-8314-f4ca941c2e64")
+	)
+	(wire
+		(pts
+			(xy 82.55 142.24) (xy 104.14 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b69f6dc-3ba1-4aa5-9806-bd38ec32d0e4")
 	)
 	(wire
 		(pts
@@ -54,6 +72,36 @@
 			(type default)
 		)
 		(uuid "93d0f694-8a2f-4f67-affb-5647edb8f9a4")
+	)
+	(wire
+		(pts
+			(xy 82.55 134.62) (xy 104.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69173b1-6af0-4ae6-82cd-570e613ded10")
+	)
+	(wire
+		(pts
+			(xy 82.55 138.43) (xy 104.14 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3f9a31-d370-48be-92bd-c9730ad63fbf")
+	)
+	(wire
+		(pts
+			(xy 82.55 130.81) (xy 104.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4cff3ac-e0da-4725-b354-80f0f40deb5b")
 	)
 	(sheet
 		(at 27.94 81.915)
@@ -203,6 +251,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ENC_CS" input
+			(at 82.55 130.81 0)
+			(uuid "103fcf71-1cb9-4548-965e-c80c81c6ddbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENC_MISO" output
+			(at 82.55 134.62 0)
+			(uuid "6c48dd01-a9ac-4150-8c79-5a043c91c48f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENC_MOSI" input
+			(at 82.55 138.43 0)
+			(uuid "5a2e381b-9581-4c4e-a65b-29655d985f85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENC_SCK" input
+			(at 82.55 142.24 0)
+			(uuid "97e0bf50-f52d-402c-a097-d65e4da4b23c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

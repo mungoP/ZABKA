@@ -4,5 +4,589 @@
 	(generator_version "10.0")
 	(uuid "e8a5ff60-610b-4e4b-b643-34709e37ab04")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "zabka:HYG053N10NS1C2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HYG053N10NS1C2"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "zabka:PDFN-8_L5.8-W5.0-P1.27-LS6.2-BL"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2986239.pdf"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "HUAYI(华羿微)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "HYG053N10NS1C2"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2986239"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MOSFETs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HYG053N10NS1C2_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "NMOS"
+					(at 1.27 -6.35 270)
+					(effects
+						(font
+							(size 3.17 3.17)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "zabka:HYG053N10NS1C2")
+		(at 83.82 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ead97d8-5a73-43f2-849a-2fd5bd0dd79d")
+		(property "Reference" "Q?"
+			(at 85.09 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HYG053N10NS1C2"
+			(at 85.09 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "zabka:PDFN-8_L5.8-W5.0-P1.27-LS6.2-BL"
+			(at 83.82 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2986239.pdf"
+			(at 83.82 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HUAYI(华羿微)"
+			(at 83.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HYG053N10NS1C2"
+			(at 83.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2986239"
+			(at 83.82 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "e8621208-a1a1-427a-b8c5-afb1432ded11")
+		)
+		(pin "1"
+			(uuid "8630df8c-811b-48de-9a12-e3daf0fad2bd")
+		)
+		(pin "8"
+			(uuid "8ec15fb7-923e-42cb-b665-fc64eab10b28")
+		)
+		(pin "7"
+			(uuid "2672989e-b14b-4ed7-82e9-6e4350a83401")
+		)
+		(pin "6"
+			(uuid "f1646020-93d0-4971-a4d6-bbdc27131262")
+		)
+		(pin "5"
+			(uuid "8ddc2025-9712-44bf-b3c4-d05dbe49e33d")
+		)
+		(pin "4"
+			(uuid "3fb56468-ad18-47cd-ad79-58440967d598")
+		)
+		(pin "3"
+			(uuid "0149fcd4-b434-49f3-b931-ac4ede557889")
+		)
+		(pin "2"
+			(uuid "2976786b-5f4a-47dc-b8fa-8ac75bc708d4")
+		)
+		(instances
+			(project "motor_board"
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/1a9b9bf9-7ba1-487a-acc1-3dde737fa3c6"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/6d2f08a9-6836-48e4-839b-afdffc1903fa"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f7fdd894-b608-49fd-8039-eb6ca221a233"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "zabka:HYG053N10NS1C2")
+		(at 83.82 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd448578-7cdc-4d50-bb27-37f30a1d91de")
+		(property "Reference" "Q?"
+			(at 85.09 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HYG053N10NS1C2"
+			(at 85.09 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "zabka:PDFN-8_L5.8-W5.0-P1.27-LS6.2-BL"
+			(at 83.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2986239.pdf"
+			(at 83.82 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HUAYI(华羿微)"
+			(at 83.82 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HYG053N10NS1C2"
+			(at 83.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2986239"
+			(at 83.82 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "b04887ac-e20e-422f-94b1-6ee58243290c")
+		)
+		(pin "1"
+			(uuid "35df7f25-a6b9-4349-ace1-c83a762ec440")
+		)
+		(pin "8"
+			(uuid "9fa0d0a4-83fe-4416-b7e1-3eb91de6b489")
+		)
+		(pin "7"
+			(uuid "b45ba2fa-7dc0-4618-860f-1dd44ac37f01")
+		)
+		(pin "6"
+			(uuid "ce25bd87-af93-40d9-88df-f7039e9c7a74")
+		)
+		(pin "5"
+			(uuid "66392c96-c73d-4790-9580-531314b0d812")
+		)
+		(pin "4"
+			(uuid "a6cdf7b0-f048-4036-8988-d57e22601f23")
+		)
+		(pin "3"
+			(uuid "654cea54-f2b1-40bc-80ba-4cf7fcc69fc4")
+		)
+		(pin "2"
+			(uuid "ae54aee1-c8bf-472b-9fee-e2417d9f04ee")
+		)
+		(instances
+			(project "motor_board"
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/1a9b9bf9-7ba1-487a-acc1-3dde737fa3c6"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/6d2f08a9-6836-48e4-839b-afdffc1903fa"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f7fdd894-b608-49fd-8039-eb6ca221a233"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
