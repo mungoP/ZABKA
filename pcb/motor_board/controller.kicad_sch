@@ -6172,8 +6172,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 45.72 0)
+			(property "Reference" "U1"
+				(at 0 48.26 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6183,7 +6183,7 @@
 				)
 			)
 			(property "Value" "STSPIN32G4_C7434864"
-				(at 0 -45.72 0)
+				(at 0 45.72 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6279,42 +6279,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -17.78 38.1 0)
-					(length 2.54)
-					(name "REG3V3/VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -17.78 35.56 0)
-					(length 2.54)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin unspecified line
@@ -6732,42 +6696,6 @@
 					)
 				)
 				(pin unspecified line
-					(at -17.78 -25.4 0)
-					(length 2.54)
-					(name "VREF+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -17.78 -27.94 0)
-					(length 2.54)
-					(name "VDDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -17.78 -30.48 0)
 					(length 2.54)
 					(name "PB10"
@@ -6778,78 +6706,6 @@
 						)
 					)
 					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -17.78 -33.02 0)
-					(length 2.54)
-					(name "GLS1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -17.78 -35.56 0)
-					(length 2.54)
-					(name "GLS2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -17.78 -38.1 0)
-					(length 2.54)
-					(name "GLS3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -17.78 -40.64 0)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6886,168 +6742,6 @@
 						)
 					)
 					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -35.56 180)
-					(length 2.54)
-					(name "BOOT3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -33.02 180)
-					(length 2.54)
-					(name "OUT3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -30.48 180)
-					(length 2.54)
-					(name "GHS3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -27.94 180)
-					(length 2.54)
-					(name "BOOT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -25.4 180)
-					(length 2.54)
-					(name "OUT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -22.86 180)
-					(length 2.54)
-					(name "GHS2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -20.32 180)
-					(length 2.54)
-					(name "BOOT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -17.78 180)
-					(length 2.54)
-					(name "OUT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -15.24 180)
-					(length 2.54)
-					(name "GHS1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7200,24 +6894,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 17.78 7.62 180)
-					(length 2.54)
-					(name "SCREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 17.78 10.16 180)
 					(length 2.54)
 					(name "PD2"
@@ -7361,7 +7037,333 @@
 						)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "STSPIN32G4_C7434864_1_1"
+				(pin power_out line
+					(at -17.78 38.1 0)
+					(length 2.54)
+					(name "REG3V3/VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 35.56 0)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -25.4 0)
+					(length 2.54)
+					(name "VREF+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -27.94 0)
+					(length 2.54)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -33.02 0)
+					(length 2.54)
+					(name "GLS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -35.56 0)
+					(length 2.54)
+					(name "GLS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -38.1 0)
+					(length 2.54)
+					(name "GLS3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -40.64 0)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -35.56 180)
+					(length 2.54)
+					(name "BOOT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -33.02 180)
+					(length 2.54)
+					(name "OUT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -30.48 180)
+					(length 2.54)
+					(name "GHS3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -27.94 180)
+					(length 2.54)
+					(name "BOOT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -25.4 180)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -22.86 180)
+					(length 2.54)
+					(name "GHS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -20.32 180)
+					(length 2.54)
+					(name "BOOT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -17.78 180)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -15.24 180)
+					(length 2.54)
+					(name "GHS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 7.62 180)
+					(length 2.54)
+					(name "SCREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 17.78 30.48 180)
 					(length 2.54)
 					(name "VM"
@@ -7379,7 +7381,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 17.78 33.02 180)
 					(length 2.54)
 					(name "SW"
@@ -7397,7 +7399,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 17.78 35.56 180)
 					(length 2.54)
 					(name "VCC"
@@ -7415,7 +7417,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 38.1 180)
 					(length 2.54)
 					(name "REGIN"
@@ -7433,7 +7435,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 40.64 180)
 					(length 2.54)
 					(name "VSS"
@@ -8000,10 +8002,10 @@
 		(uuid "a8e54ea0-15fe-46ba-9681-edc8f3e50bed")
 	)
 	(junction
-		(at 214.63 97.79)
+		(at 137.16 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b6ddf2b1-3045-49e7-b7ce-e930275c2324")
+		(uuid "b8781aa4-2676-4e13-947c-6f2f9d742f41")
 	)
 	(junction
 		(at 168.91 40.64)
@@ -8040,6 +8042,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4e65c3e-68fa-41d7-9b45-f74c24dec65b")
+	)
+	(junction
+		(at 214.63 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f33e8ba2-1f1b-4857-a1c0-91d7f383252d")
 	)
 	(junction
 		(at 130.81 135.89)
@@ -8483,16 +8491,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 97.79) (xy 223.52 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c203f8-13ea-4e6f-b10b-01de33519830")
-	)
-	(wire
-		(pts
 			(xy 130.81 135.89) (xy 130.81 137.16)
 		)
 		(stroke
@@ -8743,13 +8741,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 97.79) (xy 214.63 97.79)
+			(xy 201.93 99.06) (xy 214.63 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "63afc7ae-73ea-4c22-8dbf-7fb894c63814")
+	)
+	(wire
+		(pts
+			(xy 223.52 90.17) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ebb86c-ecc1-452e-ae37-dcd0d1d17b2c")
 	)
 	(wire
 		(pts
@@ -8820,6 +8828,16 @@
 			(type default)
 		)
 		(uuid "7708d8e2-4ef0-4188-96fe-7f21319f6e84")
+	)
+	(wire
+		(pts
+			(xy 201.93 91.44) (xy 201.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b10adf4-10d0-434f-b555-64bfa839d0a4")
 	)
 	(wire
 		(pts
@@ -9143,16 +9161,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 90.17) (xy 223.52 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a89caaed-ae71-4b11-8976-7f86b1fad847")
-	)
-	(wire
-		(pts
 			(xy 140.97 48.26) (xy 143.51 48.26)
 		)
 		(stroke
@@ -9283,6 +9291,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 99.06) (xy 214.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b769ef9e-1e71-45d5-a9c1-182407d2d352")
+	)
+	(wire
+		(pts
 			(xy 172.72 90.17) (xy 172.72 91.44)
 		)
 		(stroke
@@ -9290,16 +9308,6 @@
 			(type default)
 		)
 		(uuid "b9490276-fab3-4094-a4d8-8b387c6ad0e9")
-	)
-	(wire
-		(pts
-			(xy 214.63 97.79) (xy 214.63 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb0cae41-a491-4337-829a-e91b76deb64f")
 	)
 	(wire
 		(pts
@@ -9433,13 +9441,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 90.17) (xy 214.63 97.79)
+			(xy 214.63 90.17) (xy 214.63 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d9642d44-3387-4cc1-9026-d2699b1c9fff")
+	)
+	(wire
+		(pts
+			(xy 214.63 99.06) (xy 214.63 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da63fcb0-efba-43c6-b2a1-d6f5b137f823")
 	)
 	(wire
 		(pts
@@ -9530,6 +9548,16 @@
 			(type default)
 		)
 		(uuid "f011b850-f62e-4aed-b9b1-c03b1e5f4d40")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.9) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0cda92a-ab7b-4059-ab3a-3bad22252781")
 	)
 	(wire
 		(pts
@@ -15536,7 +15564,7 @@
 	)
 	(symbol
 		(lib_id "zabka:PGND")
-		(at 214.63 101.6 0)
+		(at 214.63 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15547,7 +15575,7 @@
 		(fields_autoplaced yes)
 		(uuid "81821970-7b80-4044-ab99-1951223a6a27")
 		(property "Reference" "#PWR08"
-			(at 214.63 107.95 0)
+			(at 214.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15558,7 +15586,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 214.63 106.68 0)
+			(at 214.63 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15568,7 +15596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 101.6 0)
+			(at 214.63 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15579,7 +15607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 101.6 0)
+			(at 214.63 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15590,7 +15618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 101.6 0)
+			(at 214.63 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18787,6 +18815,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 139.7 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea1628a1-3b8c-448f-897d-409de0b72a56")
+		(property "Reference" "#FLG02"
+			(at 141.605 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 143.51 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 139.7 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3fce8e6-4ff8-491d-b5b9-2e28f08f9d79")
+		)
+		(instances
+			(project "motor_board"
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
 		(at 243.84 48.26 0)
 		(unit 1)
@@ -19101,7 +19208,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS210")
-		(at 201.93 93.98 270)
+		(at 201.93 95.25 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19112,7 +19219,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9bbcb81-b272-493f-af5c-2bdf53790d54")
 		(property "Reference" "D2"
-			(at 204.47 92.3924 90)
+			(at 204.47 93.6624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19123,7 +19230,7 @@
 			)
 		)
 		(property "Value" "SS210"
-			(at 204.47 94.9324 90)
+			(at 204.47 96.2024 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19134,7 +19241,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 197.485 93.98 0)
+			(at 197.485 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19145,7 +19252,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
-			(at 201.93 93.98 0)
+			(at 201.93 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19156,7 +19263,7 @@
 			)
 		)
 		(property "Description" "100V 2A Schottky Diode, SMA"
-			(at 201.93 93.98 0)
+			(at 201.93 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

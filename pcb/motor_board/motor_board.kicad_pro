@@ -674,7 +674,7 @@
         "uuid": "f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5"
       }
     ],
-    "used_designators": "#FLG1,#PWR1-26,C1-15,D1-2,FB1,J1,L1,R1-8,U1,X1",
+    "used_designators": "#FLG1-2,#PWR1-26,C1-15,D1-2,FB1,J1,L1,R1-8,U1,X1",
     "variants": []
   },
   "sheets": [
@@ -684,7 +684,7 @@
     ],
     [
       "f1197683-a7c1-48e7-86f8-bf75fe1a1531",
-      "Power input"
+      "Power and monitoring"
     ],
     [
       "8ea7fc28-1044-424f-9c94-807a440d994d",
@@ -693,10 +693,6 @@
     [
       "f7fdd894-b608-49fd-8039-eb6ca221a233",
       "Half bridge"
-    ],
-    [
-      "8cf0a3f2-4fb6-4667-9720-968d01a8dd39",
-      "Monitoring"
     ],
     [
       "57d52613-8de0-4f29-b85b-01f67958a13a",
