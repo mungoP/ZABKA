@@ -14186,7 +14186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6803b4cf-c24c-402e-8c98-f22dc9f56782")
-		(property "Reference" "NT?"
+		(property "Reference" "NT1"
 			(at 54.61 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14248,7 +14248,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/8ea7fc28-1044-424f-9c94-807a440d994d"
-					(reference "NT?")
+					(reference "NT1")
 					(unit 1)
 				)
 			)
