@@ -3245,16 +3245,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 48.26) (xy 44.45 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "186683b4-db16-437b-b2d7-9b9bbea34d02")
-	)
-	(wire
-		(pts
 			(xy 111.76 132.08) (xy 111.76 133.35)
 		)
 		(stroke
@@ -3322,16 +3312,6 @@
 			(type default)
 		)
 		(uuid "390587b7-012b-4b5f-bc8b-0ec02ee5a1c1")
-	)
-	(wire
-		(pts
-			(xy 58.42 45.72) (xy 44.45 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4f595f-7502-48a2-b7b5-1d1ec2b6caca")
 	)
 	(wire
 		(pts
@@ -3555,6 +3535,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 45.72) (xy 58.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c87caf-cfc5-410a-9df7-266fc166e2c4")
+	)
+	(wire
+		(pts
 			(xy 111.76 123.19) (xy 111.76 124.46)
 		)
 		(stroke
@@ -3622,6 +3612,16 @@
 			(type default)
 		)
 		(uuid "dd585386-569f-4131-abe9-efdfbec36234")
+	)
+	(wire
+		(pts
+			(xy 43.18 48.26) (xy 58.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1710650-69f6-4552-a2fb-6a3b0a17a3c4")
 	)
 	(wire
 		(pts
@@ -4325,7 +4325,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 39.37 45.72 0)
+		(at 38.1 48.26 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4333,10 +4334,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6498b4ba-af93-4b04-8d7d-c04978e8b96c")
 		(property "Reference" "J2"
-			(at 40.005 40.64 0)
+			(at 38.735 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4346,7 +4346,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 40.005 43.18 0)
+			(at 38.735 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4356,7 +4356,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 39.37 45.72 0)
+			(at 38.1 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4367,7 +4367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 45.72 0)
+			(at 38.1 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,7 +4378,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 39.37 45.72 0)
+			(at 38.1 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
