@@ -7747,7 +7747,7 @@
 		)
 		(uuid "271eff9b-aa65-44b9-99f8-e81cc0e33619")
 	)
-	(text "BOOT0 pulled low ensures boot \ninto main flash over ST's \nbuilt-in bootloader "
+	(text "BOOT0 pulled low ensures boot \ninto main flash instead of \nST's built-in bootloader "
 		(exclude_from_sim no)
 		(at 131.318 99.06 0)
 		(effects

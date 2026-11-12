@@ -4587,7 +4587,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e9f193a-a990-465a-b527-2d7f629ed707")
-		(property "Reference" "U4"
+		(property "Reference" "J4"
 			(at 76.2 134.6201 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4696,7 +4696,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/10939cb9-7215-4c84-a62b-cce0f7c860f2"
-					(reference "U4")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4714,7 +4714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93e1cde6-f141-4ff6-905f-7004087fbf8d")
-		(property "Reference" "U3"
+		(property "Reference" "J3"
 			(at 128.27 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4823,7 +4823,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/10939cb9-7215-4c84-a62b-cce0f7c860f2"
-					(reference "U3")
+					(reference "J3")
 					(unit 1)
 				)
 			)
