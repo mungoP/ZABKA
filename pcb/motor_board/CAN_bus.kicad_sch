@@ -2319,7 +2319,7 @@
 		(uuid "2a121906-7e46-4874-b9f8-53e54ad7c387")
 	)
 	(junction
-		(at 69.85 62.23)
+		(at 73.66 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63f32baa-c9a5-44e4-af47-2a0b28d2b1bc")
@@ -2388,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 62.23) (xy 83.82 62.23)
+			(xy 71.12 62.23) (xy 83.82 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2418,7 +2418,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 62.23) (xy 69.85 63.5)
+			(xy 73.66 62.23) (xy 73.66 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2568,7 +2568,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 71.12) (xy 78.74 71.12)
+			(xy 73.66 71.12) (xy 78.74 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2638,7 +2638,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 60.96) (xy 69.85 62.23)
+			(xy 71.12 60.96) (xy 71.12 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3090,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 69.85 60.96 0)
+		(at 71.12 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3100,7 +3100,7 @@
 		(dnp no)
 		(uuid "15b3e0e9-e6ff-40a5-913c-173aa3e85e01")
 		(property "Reference" "#PWR037"
-			(at 69.85 64.77 0)
+			(at 71.12 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3111,7 +3111,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 65.532 58.674 0)
+			(at 66.802 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3121,7 +3121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 60.96 0)
+			(at 71.12 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3132,7 +3132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 60.96 0)
+			(at 71.12 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 69.85 60.96 0)
+			(at 71.12 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3816,7 +3816,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 166.37 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4831,7 +4831,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
-		(at 69.85 67.31 0)
+		(at 73.66 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4839,10 +4839,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b097259d-fda6-47a5-a36a-69349f7a457d")
 		(property "Reference" "C21"
-			(at 72.39 64.7699 0)
+			(at 68.072 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4853,7 +4852,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 72.39 67.31 0)
+			(at 68.072 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4864,7 +4863,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 68.072 67.31 90)
+			(at 71.882 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4875,7 +4874,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4886,7 +4885,7 @@
 			)
 		)
 		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4897,7 +4896,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4908,7 +4907,7 @@
 			)
 		)
 		(property "Stock" "20208285"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4919,7 +4918,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4930,7 +4929,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4941,7 +4940,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4952,7 +4951,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4963,7 +4962,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4974,7 +4973,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4985,7 +4984,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4996,7 +4995,7 @@
 			)
 		)
 		(property "Part" "CL05B104KO5NNNC"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5007,7 +5006,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 72.39 69.85 0)
+			(at 68.072 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5018,7 +5017,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5029,7 +5028,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5040,7 +5039,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 69.85 67.31 0)
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5713,7 +5712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 166.37 82.55 0)
 			(hide yes)
 			(show_name no)
