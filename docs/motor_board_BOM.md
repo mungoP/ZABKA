@@ -241,15 +241,15 @@ LCSC numbers marked "verify" are the JLC Basic part matching the value and volta
 
 ### CAN bus sheet
 
-| Ref      | Part                   | Qty | Value / package            | LCSC                  | Notes                                                |
-| -------- | ---------------------- | --- | -------------------------- | --------------------- | ---------------------------------------------------- |
-| U2       | CAN FD transceiver     | 1   | TCAN3414DR, SOIC-8         | C22396693             | STB (8) and SHDN (5) to GND = normal mode            |
-| C21      | Transceiver decoupling | 1   | 100 nF, 16 V, 0402         | C1525                 | At pin 3                                             |
-| R13–R16  | Split termination      | 4   | 120 ohm                    | C25079 (0402, verify) | Two 60 ohm halves                                    |
-| C20      | Termination mid-point  | 1   | 4.7 nF, 50 V               | C1538 (0402, verify)  | Common-mode filter                                   |
-| JP1, JP2 | Termination jumpers    | 2   | Solder jumper, open        | None                  | Bridge both only on the last board of each leg       |
-| D4       | CAN ESD                | 1   | PESD1CAN,215, SOT-23       | C15771                | Extended                                             |
-| U3, U4   | CAN connectors         | 2   | JST GH 4-pin, SM04B-GHS-TB | C189895               | Rename to J4, J5. Pin 1 CANH, 2 CANL, 3 GND, 4 spare |
+| Ref      | Part                   | Qty | Value / package            | LCSC                  | Notes                                          |
+| -------- | ---------------------- | --- | -------------------------- | --------------------- | ---------------------------------------------- |
+| U2       | CAN FD transceiver     | 1   | TCAN3414DR, SOIC-8         | C22396693             | STB (8) and SHDN (5) to GND = normal mode      |
+| C21      | Transceiver decoupling | 1   | 100 nF, 16 V, 0402         | C1525                 | At pin 3                                       |
+| R13–R16  | Split termination      | 4   | 120 ohm                    | C25079 (0402, verify) | Two 60 ohm halves                              |
+| C20      | Termination mid-point  | 1   | 4.7 nF, 50 V               | C1538 (0402, verify)  | Common-mode filter                             |
+| JP1, JP2 | Termination jumpers    | 2   | Solder jumper, open        | None                  | Bridge both only on the last board of each leg |
+| D4       | CAN ESD                | 1   | PESD1CAN,215, SOT-23       | C15771                | Extended                                       |
+| J4, J5   | CAN connectors         | 2   | JST GH 4-pin, SM04B-GHS-TB | C189895               | Pin 1 CANH, 2 CANL, 3 GND, 4 spare             |
 
 ### Encoder sheet
 

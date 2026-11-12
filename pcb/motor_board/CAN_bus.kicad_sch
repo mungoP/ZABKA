@@ -4714,7 +4714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93e1cde6-f141-4ff6-905f-7004087fbf8d")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 128.27 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4823,7 +4823,7 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/10939cb9-7215-4c84-a62b-cce0f7c860f2"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
