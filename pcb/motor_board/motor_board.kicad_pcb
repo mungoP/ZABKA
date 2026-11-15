@@ -40133,7 +40133,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "302adb63-26a8-48a5-94a2-021431d2cd5b")
-		(at 125.557248 101.7502 -167)
+		(at 126.357249 101.7002 -167)
 		(descr "Through hole angled pin header, 1x05, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J1"
