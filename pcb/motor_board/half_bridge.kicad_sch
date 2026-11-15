@@ -8997,7 +8997,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e5a4af95-e501-4fa3-a5b9-c14192777bc2")
 		(property "Reference" "#PWR0104"
 			(at 116.84 128.27 0)
@@ -9011,7 +9010,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 116.84 119.38 0)
+			(at 119.888 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
