@@ -187,7 +187,7 @@
 		(uuid "246cb3c2-5b91-4319-8a4f-0edebd5ebc46")
 	)
 	(embedded_fonts no)
-	(model "lib/kicad/zabka.3dshapes/CAP-TH_D12.5-H20.0-P5.00.wrl"
+	(model "${KIPRJMOD}/../../lib/kicad/zabka.3dshapes/CAP-TH_D12.5-H20.0-P5.00.step"
 		(offset
 			(xyz 0 0 0)
 		)

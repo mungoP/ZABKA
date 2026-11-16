@@ -166,7 +166,7 @@
 		(uuid "4d60ff5a-6631-41c1-bb4e-d7a6d85135ed")
 	)
 	(embedded_fonts no)
-	(model "lib/kicad/zabka.3dshapes/RES-SMD_L6.4-W3.2_LR2512D-3W-1MR.wrl"
+	(model "${KIPRJMOD}/../../lib/kicad/zabka.3dshapes/RES-SMD_L6.4-W3.2_LR2512D-3W-1MR.step"
 		(offset
 			(xyz 0 0 0)
 		)

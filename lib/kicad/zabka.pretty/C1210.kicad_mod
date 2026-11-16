@@ -210,7 +210,7 @@
 		(uuid "91778edf-6bb5-4191-9ce2-7c6eb9dc8e6c")
 	)
 	(embedded_fonts no)
-	(model "lib/kicad/zabka.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+	(model "${KIPRJMOD}/../../lib/kicad/zabka.3dshapes/C1210_L3.2-W2.5-H2.5.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -202,7 +202,7 @@
 		(uuid "bfd08e69-ea4e-42da-8755-62607d93329c")
 	)
 	(embedded_fonts no)
-	(model "lib/kicad/zabka.3dshapes/CONN-SMD_GH1.25-WS-4P.wrl"
+	(model "${KIPRJMOD}/../../lib/kicad/zabka.3dshapes/CONN-SMD_GH1.25-WS-4P.step"
 		(offset
 			(xyz 0 0 0)
 		)

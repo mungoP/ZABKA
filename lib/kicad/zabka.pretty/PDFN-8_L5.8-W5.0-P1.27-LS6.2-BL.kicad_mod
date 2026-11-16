@@ -300,7 +300,7 @@
 		(uuid "df25a31e-efee-4798-8f83-7c3f2a166355")
 	)
 	(embedded_fonts no)
-	(model "lib/kicad/zabka.3dshapes/PDFN-8_L5.8-W5.0-P1.27-LS6.2-BL.wrl"
+	(model "${KIPRJMOD}/../../lib/kicad/zabka.3dshapes/PDFN-8_L5.8-W5.0-P1.27-LS6.2-BL.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -608,7 +608,7 @@
 		(uuid "821e0b1a-cad5-416c-b21f-c7e51787af8f")
 	)
 	(embedded_fonts no)
-	(model "lib/kicad/zabka.3dshapes/VFQFPN-64_L9.0-W9.0-P0.50-TL-EP4.0.wrl"
+	(model "${KIPRJMOD}/../../lib/kicad/zabka.3dshapes/VFQFPN-64_L9.0-W9.0-P0.50-TL-EP4.0.step"
 		(offset
 			(xyz 0 0 0)
 		)

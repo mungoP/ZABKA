@@ -326,7 +326,7 @@
 		(uuid "1804b6d5-5e41-4ce3-81f6-6aea083ea817")
 	)
 	(embedded_fonts no)
-	(model "lib/kicad/zabka.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
+	(model "${KIPRJMOD}/../../lib/kicad/zabka.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
 		(offset
 			(xyz 0 0 0)
 		)
