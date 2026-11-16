@@ -5765,7 +5765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49661279-3f39-4b83-b3e9-4c440f93d5f6")
-		(property "Reference" "TP101"
+		(property "Reference" "U"
 			(at 175.26 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5826,15 +5826,15 @@
 		(instances
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/1a9b9bf9-7ba1-487a-acc1-3dde737fa3c6"
-					(reference "TP301")
+					(reference "W")
 					(unit 1)
 				)
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/6d2f08a9-6836-48e4-839b-afdffc1903fa"
-					(reference "TP201")
+					(reference "V")
 					(unit 1)
 				)
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f7fdd894-b608-49fd-8039-eb6ca221a233"
-					(reference "TP101")
+					(reference "U")
 					(unit 1)
 				)
 			)
