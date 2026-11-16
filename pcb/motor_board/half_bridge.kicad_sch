@@ -5290,7 +5290,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "zabka:C1210"
+		(property "Footprint" "zabka:C1210_no-silk"
 			(at 148.59 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5873,7 +5873,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "zabka:C1210"
+		(property "Footprint" "zabka:C1210_no-silk"
 			(at 135.89 44.45 0)
 			(hide yes)
 			(show_name no)
