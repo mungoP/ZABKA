@@ -16065,7 +16065,7 @@
 	(footprint "zabka:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
 		(layer "F.Cu")
 		(uuid "617c1f12-7962-485e-bdf2-e911b579df6f")
-		(at 152 99 -90)
+		(at 152 100 -90)
 		(property "Reference" "U5"
 			(at 3.5 -0.1 180)
 			(layer "F.SilkS")
@@ -20998,7 +20998,7 @@
 	(footprint "PCM_JLCPCB:C_0402"
 		(layer "F.Cu")
 		(uuid "8910b3b4-2ede-4f30-8d24-4ae3deef1aaf")
-		(at 156.4 98.25 90)
+		(at 156.5 99.1 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C22"
@@ -22854,7 +22854,7 @@
 	(footprint "PCM_JLCPCB:R_0402"
 		(layer "F.Cu")
 		(uuid "97733243-bd44-4be0-a580-f40027c84a44")
-		(at 147.15 97)
+		(at 147 98.1)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R17"
@@ -25732,7 +25732,7 @@
 	(footprint "PCM_JLCPCB:C_0402"
 		(layer "F.Cu")
 		(uuid "abf2315f-17ab-425a-b3e8-c879fe6526f4")
-		(at 157.25 98.25 90)
+		(at 157.35 99.1 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
@@ -26909,7 +26909,7 @@
 	(footprint "PCM_JLCPCB:R_0402"
 		(layer "F.Cu")
 		(uuid "b1d49f4c-6cf0-4075-8f70-e51f2f4cdf3f")
-		(at 147.15 98.4)
+		(at 147 99.5)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R19"
