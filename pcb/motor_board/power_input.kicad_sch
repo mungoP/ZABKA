@@ -2489,7 +2489,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "zabka:NXA63VB470M12.5*25_LO"
+		(symbol "zabka:NXA-100VB220-M-12.5*20"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2505,7 +2505,7 @@
 					)
 				)
 			)
-			(property "Value" "NXA63VB470M12.5*25_LO"
+			(property "Value" "NXA-100VB220-M-12.5*20"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2526,7 +2526,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_SamYoung-Electronics-NXA63VB470M12-5-25-LO_C371297.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_SamYoung-Electronics-NXA-100VB220-M-12-5-20_C350119.html"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2559,7 +2559,7 @@
 					)
 				)
 			)
-			(property "MPN" "NXA63V470M12.5*25 LO"
+			(property "MPN" "NXA 100V220 M 12.5*20"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2570,7 +2570,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C371297"
+			(property "LCSC Part" "C350119"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2592,7 +2592,7 @@
 					)
 				)
 			)
-			(symbol "NXA63VB470M12.5*25_LO_0_1"
+			(symbol "NXA-100VB220-M-12.5*20_0_1"
 				(rectangle
 					(start -2.54 1.52)
 					(end -1.52 1.5)
@@ -3285,12 +3285,6 @@
 		(uuid "67c14212-a214-4877-88be-ba8743664a94")
 	)
 	(junction
-		(at 62.23 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a73060c-0233-4732-9fd3-1d76f428f9ef")
-	)
-	(junction
 		(at 105.41 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3307,6 +3301,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c59d4653-e862-40b4-b092-d5da93989317")
+	)
+	(junction
+		(at 62.23 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8ed6147-aa56-45e6-8cbb-51973be73ad0")
 	)
 	(junction
 		(at 161.29 50.8)
@@ -3446,16 +3446,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 50.8) (xy 58.42 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44e03a2d-6bca-4c39-98ef-22b15387545e")
-	)
-	(wire
-		(pts
 			(xy 161.29 60.96) (xy 165.1 60.96)
 		)
 		(stroke
@@ -3506,6 +3496,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 50.8) (xy 71.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa711ff-2070-4193-8f5f-1ad3e2807815")
+	)
+	(wire
+		(pts
 			(xy 50.8 123.19) (xy 50.8 125.73)
 		)
 		(stroke
@@ -3526,7 +3526,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 50.8) (xy 62.23 50.8)
+			(xy 58.42 50.8) (xy 62.23 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4100,6 +4100,121 @@
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "zabka:NXA-100VB220-M-12.5*20")
+		(at 62.23 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ceadc75-cf3c-4833-886c-521dc1fdc646")
+		(property "Reference" "C17"
+			(at 66.04 45.0849 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NXA-100VB220-M-12.5*20"
+			(at 66.04 47.6249 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "zabka:CAP-TH_BD12.5-P5.00-D0.6-FD"
+			(at 62.23 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_SamYoung-Electronics-NXA-100VB220-M-12-5-20_C350119.html"
+			(at 62.23 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMYOUNG(韩国三莹)"
+			(at 62.23 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NXA 100V220 M 12.5*20"
+			(at 62.23 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C350119"
+			(at 62.23 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "50d27e6e-6940-4076-b9cb-e2a27af57f37")
+		)
+		(pin "1"
+			(uuid "280d50da-3c19-4ec7-adf6-c25247320885")
+		)
+		(instances
+			(project "motor_board"
+				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4904,121 +5019,6 @@
 			(project "motor_board"
 				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "zabka:NXA63VB470M12.5*25_LO")
-		(at 62.23 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77a4d6c0-5656-4146-8d9c-62a5c09a3a0b")
-		(property "Reference" "C17"
-			(at 66.04 45.0849 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NXA63VB470M12.5*25_LO"
-			(at 66.04 47.6249 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "zabka:CAP-TH_BD12.5-P5.00-D0.6-FD"
-			(at 62.23 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_SamYoung-Electronics-NXA63VB470M12-5-25-LO_C371297.html"
-			(at 62.23 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SAMYOUNG(韩国三莹)"
-			(at 62.23 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "NXA63V470M12.5*25 LO"
-			(at 62.23 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C371297"
-			(at 62.23 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "49409693-c0d9-4424-8fe6-4f84944b0c1b")
-		)
-		(pin "1"
-			(uuid "e8268a5d-55df-41fc-9c7f-ffbbb236ee58")
-		)
-		(instances
-			(project "motor_board"
-				(path "/f9d9c5f9-b1a2-464e-8253-9f9d1b0653b5/f1197683-a7c1-48e7-86f8-bf75fe1a1531"
-					(reference "C17")
 					(unit 1)
 				)
 			)

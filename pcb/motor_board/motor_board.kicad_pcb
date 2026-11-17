@@ -40453,7 +40453,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SM05B-GHS-TB"
+		(property "Value" "Conn_01x05_Pin"
 			(at 0.000001 -3.9 90)
 			(layer "B.Fab")
 			(uuid "930105f4-5a90-4b8b-acc5-4bff27ebc671")
@@ -40465,7 +40465,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C189896.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40915,7 +40915,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "NXA63VB470M12.5*25_LO"
+		(property "Value" "NXA-100VB220-M-12.5*20"
 			(at 0.000001 -4 0)
 			(layer "B.Fab")
 			(uuid "447625f8-c02a-4fd5-b884-920ccebffe89")
@@ -40927,7 +40927,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_SamYoung-Electronics-NXA63VB470M12-5-25-LO_C371297.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_SamYoung-Electronics-NXA-100VB220-M-12-5-20_C350119.html"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -40951,7 +40951,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C371297"
+		(property "LCSC Part" "C350119"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -40978,7 +40978,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "NXA63V470M12.5*25 LO"
+		(property "MPN" "NXA 100V220 M 12.5*20"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40992,7 +40992,7 @@
 				(justify mirror)
 			)
 		)
-		(path "/f1197683-a7c1-48e7-86f8-bf75fe1a1531/77a4d6c0-5656-4146-8d9c-62a5c09a3a0b")
+		(path "/f1197683-a7c1-48e7-86f8-bf75fe1a1531/5ceadc75-cf3c-4833-886c-521dc1fdc646")
 		(sheetname "/Power and monitoring/")
 		(sheetfile "power_input.kicad_sch")
 		(units
