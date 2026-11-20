@@ -8432,6 +8432,10 @@
 		(uuid "2af9a5e4-2bee-4eb8-8dcc-ef4cddec56a3")
 	)
 	(no_connect
+		(at 41.91 113.03)
+		(uuid "37c9e51c-13cd-4bb1-a83f-59a10fd26b09")
+	)
+	(no_connect
 		(at 77.47 105.41)
 		(uuid "44555525-3762-4d8d-a773-2a29ff40fc1c")
 	)
@@ -8452,10 +8456,6 @@
 		(uuid "57fb4991-e2b5-4d4f-b143-fb72af2965d3")
 	)
 	(no_connect
-		(at 41.91 100.33)
-		(uuid "592c213e-5aef-425d-800c-4994035cc5fe")
-	)
-	(no_connect
 		(at 41.91 85.09)
 		(uuid "721132b3-8216-4780-95ff-b4f3012a6da6")
 	)
@@ -8472,16 +8472,16 @@
 		(uuid "a3e53b52-5a87-4df9-bc5a-ec7a259229ed")
 	)
 	(no_connect
-		(at 41.91 102.87)
-		(uuid "b379fc2e-3c75-43f5-a49b-65b79ece734a")
-	)
-	(no_connect
 		(at 77.47 107.95)
 		(uuid "d03ee484-ca3b-43fc-8f3a-21fc1d3429b0")
 	)
 	(no_connect
 		(at 41.91 67.31)
 		(uuid "d53390b2-5dc5-480e-a523-2cb69ee72523")
+	)
+	(no_connect
+		(at 41.91 110.49)
+		(uuid "eade4691-7a66-4044-ac4f-65624f9d22f2")
 	)
 	(no_connect
 		(at 41.91 128.27)
@@ -8887,6 +8887,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 102.87) (xy 41.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40840b22-5310-49b1-8e70-82b514f4e428")
+	)
+	(wire
+		(pts
 			(xy 130.81 135.89) (xy 130.81 137.16)
 		)
 		(stroke
@@ -9057,16 +9067,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 113.03) (xy 41.91 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "581f3026-14fa-4358-8498-7f070a8e7645")
-	)
-	(wire
-		(pts
 			(xy 201.93 76.2) (xy 201.93 77.47)
 		)
 		(stroke
@@ -9134,6 +9134,16 @@
 			(type default)
 		)
 		(uuid "5ce04078-d71c-4207-be49-a99fd5ccef15")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.33) (xy 41.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7b7d4e-e73a-446d-907f-cd99d3d480f1")
 	)
 	(wire
 		(pts
@@ -9214,16 +9224,6 @@
 			(type default)
 		)
 		(uuid "6f370c85-6ffc-430b-b488-4724747996df")
-	)
-	(wire
-		(pts
-			(xy 38.1 110.49) (xy 41.91 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72689cb3-3db8-44d5-821f-baf625eaf0a3")
 	)
 	(wire
 		(pts
@@ -10396,27 +10396,16 @@
 		)
 		(uuid "5ecf3bae-d5d1-415c-8c16-44bbd0139129")
 	)
-	(hierarchical_label "OPN2"
-		(shape bidirectional)
-		(at 38.1 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d644d70-da8a-4aa8-81fa-bd3215ad53c5")
-	)
 	(hierarchical_label "MOSFET_TEMP"
 		(shape input)
-		(at 38.1 110.49 180)
+		(at 38.1 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7d80ee7a-25ef-4da1-925f-3bd9588471a8")
+		(uuid "7854ca97-a1d7-4eb8-ab76-55d8b2844c36")
 	)
 	(hierarchical_label "BOOT1"
 		(shape bidirectional)
@@ -10538,6 +10527,17 @@
 			(justify left)
 		)
 		(uuid "b2bf7d7a-f13a-4114-8c10-05a5be1a7420")
+	)
+	(hierarchical_label "OPN2"
+		(shape bidirectional)
+		(at 38.1 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2d19513-a1f7-4502-9965-5b9e27d8e281")
 	)
 	(hierarchical_label "GHS2"
 		(shape output)
