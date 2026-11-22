@@ -13627,7 +13627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "zabka:VFQFPN-64_L9.0-W9.0-P0.50-TL-EP4.0"
+		(property "Footprint" "gnd"
 			(at 59.69 146.05 0)
 			(hide yes)
 			(show_name no)
