@@ -12998,7 +12998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
 			(at 102.87 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -13476,7 +13476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
 			(at 144.78 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -13627,7 +13627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gnd"
+		(property "Footprint" "zabka:VFQFPN-64_L9.0-W9.0-P0.50-TL-EP4.0"
 			(at 59.69 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -14323,7 +14323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
 			(at 102.87 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18279,7 +18279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
 			(at 123.19 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -19172,7 +19172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
 			(at 123.19 171.45 0)
 			(hide yes)
 			(show_name no)

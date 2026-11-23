@@ -984,7 +984,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../",
       "specctra_dsn": "",
       "step": "../../cad/step/motor_board.step",
       "vrml": ""
