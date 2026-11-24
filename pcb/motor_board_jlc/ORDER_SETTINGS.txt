@@ -1,0 +1,22 @@
+ZABKA motor board - JLCPCB order package (generated 2026-11-24 from motor_board.kicad_pcb saved 00:37)
+
+UPLOAD
+  Gerber:  motor_board_gerbers.zip
+  BOM:     motor_board_BOM_JLC.csv   (43 lines, 110 parts, every line has an LCSC number)
+  CPL:     motor_board_CPL_JLC.csv   (110 placements, all Top)
+
+PCB OPTIONS
+  Layers 4 | Size 72.97 x 69.84 mm | Thickness 1.6 mm | FR-4
+  Surface finish ENIG (HASL lead-free is the cheaper option)
+  Outer copper 1 oz | Inner copper 0.5 oz | Stackup default (JLC04161H-7628)
+  Min via hole size: 0.2 mm / (0.3-0.35 mm)   <- 73 vias are 0.2 mm drill
+  Via covering: Tented | Impedance control: No | Delivery: single PCB
+
+PCBA OPTIONS
+  Economic | Top side only | PCBA qty 2 (or as wanted)
+  Confirm parts placement: YES (check rotation of U1, Q101-Q302, U2, U5, J3/J4/J5, D3 cathode bar on the VM side)
+
+NOT ASSEMBLED BY JLC - buy on LCSC with the order and hand-solder
+  C17  220uF 100V electrolytic, through-hole   LCSC C350119
+  J2   XT30PW-M power connector, through-hole   LCSC C431092
+  J1   JST GH 5-pin SWD (SM05B-GHS-TB), bottom side   LCSC C189896
