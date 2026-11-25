@@ -2,7 +2,7 @@
 
 Last updated: 2026-11-24. Prices are Amazon.com listings on that date, before tax.
 
-This is the cheapest set of parts I found that lets the Raspberry Pi 4 command all 10 motor boards over CAN fast enough for an RL walking policy. It uses the ESP32 you already own as the CAN bridge, so there is no custom main board to build yet. Everything comes from Amazon except where noted.
+This is the cheapest set of parts I found that lets the Raspberry Pi 4 command all 10 motor boards over CAN fast enough for an RL walking policy. It uses an ESP32 as the CAN bridge, so there is no custom main board to build yet. Everything comes from Amazon except where noted.
 
 ## Summary
 
@@ -19,7 +19,7 @@ This is the cheapest set of parts I found that lets the Raspberry Pi 4 command a
 | Safety           | XT90-S anti-spark connector + 22 mm mushroom e-stop        | XT90-S is the hard power disconnect. The e-stop is a fail-safe stop handled by the ESP32. |
 | Raspberry Pi Pico | Spare                                                     | Upgrade path for a second CAN bus (see below).                                          |
 
-**Total: $199.64** ($126.32 for the parts you asked for, $73.32 for power and safety extras). Not included: the second 6S pack (`BOM.csv` lists only one), the Pi 4 and the ESP32.
+**Total: $199.64**. Not included:  the Pi 4 and the ESP32.
 
 ## Is it fast enough?
 
