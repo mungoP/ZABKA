@@ -15,4 +15,4 @@
 
 ## Status
 
-Early planning: selecting motors and finalizing the leg design.
+Fabrication: PCBs activiely being manufactured, CAD design finalized, 3D printing in progress. All parts ordered except for parts in docs/BOMs/control_power_bus_BOM.md

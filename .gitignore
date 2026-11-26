@@ -25,3 +25,6 @@ build/
 # Python 
 __pychache__/
 .venv/ 
+
+# Claude research notes and reports (local only)
+claude_research/
