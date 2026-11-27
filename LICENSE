@@ -1,0 +1,34 @@
+ŻABKA
+Copyright (c) 2026 Mungo Prus-Shearer and Adam Chrostowski
+
+ŻABKA is open source. Different parts of this repository are released under
+different licences, chosen to suit each kind of work. The full licence texts
+are in the LICENSES/ folder.
+
+  Hardware: pcb/, lib/, cad/
+    CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+    SPDX-License-Identifier: CERN-OHL-S-2.0
+    LICENSES/CERN-OHL-S-2.0.txt
+
+  Firmware and software: firmware/, software/
+    GNU General Public License v3.0 or later
+    SPDX-License-Identifier: GPL-3.0-or-later
+    LICENSES/GPL-3.0.txt
+
+  Documentation, images and BOMs: README files, docs/, BOM.csv
+    Creative Commons Attribution-ShareAlike 4.0 International
+    SPDX-License-Identifier: CC-BY-SA-4.0
+    LICENSES/CC-BY-SA-4.0.txt
+
+Datasheets in docs/datasheets/ are the property of their respective
+manufacturers and are included for reference only. They are not covered by
+the licences above.
+
+Source Location (as defined in CERN-OHL-S section 1.9): https://github.com/mungoP/ZABKA
+
+In short: you may use, study, modify, build, share and sell anything in this
+repository. If you distribute a modified version (including selling boards or
+robots built from modified designs, or shipping modified firmware), you must
+release your changes under the same licence and keep this notice. The
+licences are provided without warranty of any kind; see each licence text for
+the full terms.

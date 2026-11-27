@@ -54,3 +54,13 @@ The Pi runs the walking policy at 50 Hz. The ESP32 exchanges commands and joint 
 | Control and power electronics | Being purchased ([`electronics_BOM.csv`](docs/BOMs/electronics_BOM.csv)) |
 | Firmware                      | Planned                                                                  |
 | Walking policy                | Planned                                                                  |
+
+## License
+
+ŻABKA is open source:
+
+- **Hardware** (`pcb/`, `lib/`, `cad/`): [CERN-OHL-S-2.0](LICENSES/CERN-OHL-S-2.0.txt)
+- **Firmware and software** (`firmware/`, `software/`): [GPL-3.0-or-later](LICENSES/GPL-3.0.txt)
+- **Documentation** (`docs/`, READMEs, BOMs): [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt)
+
+Anyone may use, modify, build and sell the designs, as long as modified versions are released under the same licence. See [`LICENSE`](LICENSE) for details.
