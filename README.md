@@ -1,18 +1,56 @@
-# Ż.A.B.K.A.
+# ŻABKA
 
 **Zero-moment Assisted Bipedal Kinetic Android**
 
-ŻABKA ("little frog" in Polish) is a DIY 3D-printed humanoid robot. The current focus is the legs.
+ŻABKA ("little frog" in Polish) is a DIY 3D-printed bipedal robot with custom FOC motor controllers on every joint. The current focus is the legs.
 
-## Planned Specs
+![ŻABKA assembly](docs/images/assembly.png)
 
-- **Height:** 3-4 ft
-- **Legs:** 6 DoF each (3 hip, 1 knee, 2 ankle), 12 DoF total
-- **Actuators:** Integrated motors with built-in drivers, controlled over CAN
-- **Structure:** PETG, 4 walls, 10-20% infill
-- **Power:** 48V Li-ion battery
-- **Estimated weight:** 14-18 kg without arms
+## Specs (planned)
+
+| | |
+| - | - |
+| **Height** | 3–4 ft |
+| **Legs** | 5 DoF each (3 hip, 1 knee, 1 ankle), 10 DoF total |
+| **Actuators** | MAD 5008 170KV BLDC motors, each with a custom STSPIN32G4 FOC controller board, on one CAN bus |
+| **Compute** | Raspberry Pi 4 running the walking policy, ESP32-C3 as the real-time CAN bridge |
+| **Power** | 12S LiPo, two 6S 4000 mAh packs soldered in series (36–50.4 V) |
+| **Structure** | 3D-printed PETG, 4 walls, 10–20 % infill |
+| **Estimated weight** | 14–18 kg without arms |
+
+## System overview
+
+```mermaid
+flowchart LR
+    PI["Raspberry Pi 4<br/>RL policy"] <-- "USB serial" --> ESP["ESP32-C3<br/>CAN bridge"]
+    IMU["IMU"] --> ESP
+    ESP <-- "CAN 1 Mbps" --> J["10 × motor + FOC board<br/>(5 per leg)"]
+    BAT["12S LiPo + BMS"] -- "36–50.4 V" --> J
+    BAT -- "5 V buck" --> PI
+```
+
+The Pi runs the walking policy at 50 Hz. The ESP32 exchanges commands and joint state with all 10 motor boards over CAN at 200 Hz, and each board closes its own FOC current loop and PD position loop. See [`docs/system_architecture.md`](docs/system_architecture.md) for the full design.
+
+## Repository map
+
+| Path | Contents |
+| ---- | -------- |
+| [`BOM.csv`](BOM.csv) | Combined bill of materials with running total |
+| [`docs/`](docs/) | System architecture, CAN protocol, per-category BOMs, datasheets |
+| [`cad/`](cad/) | Onshape link and STEP exports of the printed parts |
+| [`pcb/`](pcb/) | KiCad project and JLCPCB fabrication files for the motor controller board |
+| [`lib/`](lib/) | Custom KiCad symbols, footprints and 3D models |
+| [`firmware/`](firmware/) | Motor board FOC firmware and ESP32 CAN bridge firmware |
+| [`software/`](software/) | Simulation, policy training and the code that runs on the Pi |
 
 ## Status
 
-Fabrication: PCBs activiely being manufactured, CAD design finalized, 3D printing in progress. All parts ordered except for parts in docs/BOMs/control_power_bus_BOM.md
+| Subsystem | Status |
+| --------- | ------ |
+| Mechanical design | Done ([Onshape](cad/)) |
+| 3D printing | In progress |
+| Motor controller board | Ordered from JLCPCB, shipping |
+| Motors, bearings, fasteners | In hand |
+| Control and power electronics | Being purchased ([`electronics_BOM.csv`](docs/BOMs/electronics_BOM.csv)) |
+| Firmware | Planned |
+| Walking policy | Planned |
