@@ -1,6 +1,6 @@
 Category,Part,Description,Qty,Unit price,Total,Progress,Link
 Actuator,MAD 5008 170KV BLDC Motor,Joint motor,10,$75.99,$759.90,In hand,https://www.amazon.com/gp/product/B08GQ7CW82/ref=ewc_pr_img_2?smid=A68ZB174Q6ZDX&psc=1
-Actuator,Motor controller board (assembled),"ŻABKA 58 mm FOC board, one per motor. 10 boards cost $472.03 after tax and tariffs. Full BOM in docs/BOMs/motor_board_BOM.md",10,$47.20,$472.03,Ordered / shipping,
+Actuator,Motor controller board (assembled),"ŻABKA 58 mm FOC board, one per motor. 10 boards cost $472.03 after tax and tariffs. Full SMT BOM in pcb/motor_board/JLC_fab/motor_board_BOM_JLC.csv",10,$47.20,$472.03,Ordered / shipping,
 Actuator,XT30PW-M power connector (J2),"Motor board back side, hand-soldered. LCSC C431092",10,$0.33,$3.28,Needs to be purchased,https://www.lcsc.com/product-detail/C431092.html
 Actuator,JST-GH 5-pin SWD connector (J1),"Motor board back side, hand-soldered. LCSC C189896",10,$0.24,$2.37,Needs to be purchased,https://www.lcsc.com/product-detail/C189896.html
 Actuator,220 µF 100 V electrolytic capacitor (C17),"Motor board bulk cap, back side, hand-soldered. 12.5 × 20 mm, LCSC C350119",10,$0.50,$5.01,Needs to be purchased,https://www.lcsc.com/product-detail/C350119.html

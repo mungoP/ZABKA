@@ -1,0 +1,21 @@
+Part,Description,Qty,Unit price,Total,Progress,Link
+2 × 6S LiPo battery 4000 mAh 22.2 V,Two packs in series for 12S (50.4 V full),1,$122.99,$122.99,In hand,https://www.amazon.com/Zeee-4000mAh-Battery-Airplane-Helicopter/dp/B07ZYJJWCY/ref=sr_1_2_sspa?crid=36AFVYJ2ONXIE&dib=eyJ2IjoiMSJ9.wGttBl7GMvoJCc2tt-LEi_o-hsPGfVrJHGFRGieVxOziL2PAV7TBCiVTLkYRGjlbj-yf94-LvQEZq4jdHmbIW96kFGWsar8qM_TzjtamP8aUlBolEjydMB37uQztr6hBwSJYGIK0S2Li5jSMv9LXHMF_w8FgQ_9vkpEXyqDgqAUZurKdjCMjoaPl-sl2ljL0RVSCzAp4ls0OoQxTNUgfO--eQ-csrVw5wicVGVqFbbIm1SWCoDhMLPw1ARaF7O1Llw-WN0Skj5qKP2S3YfIMvSXsRwHJuQCtWL0XjWmvo-M.kWAGPUUk4rwqQofalEiaZC76jg1_3LuQsdHIgg_emPE&dib_tag=se&keywords=6s+4ahj&qid=1793759532&s=toys-and-games&sprefix=6s+4ahj%2Ctoys-and-games%2C94&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
+Raspberry Pi 4,Runs the RL walking policy. Already owned,1,$99.99,$99.99,In hand,https://www.microcenter.com/product/637834/4_Model_B;_Broadcom_BCM2711_Quad_core_Cortex-A72_(ARM_v8)_64-bit_SoC;_4GB_DDR4_RAM?storeID=115
+ESP32 C3,CAN bridge to the motor boards (built-in TWAI controller). Already owned,1,$8.99,$8.99,In hand,
+Raspberry Pi Pico,"Backup CAN bridge, or a second CAN bus using can2040",1,,,In hand,
+Waveshare SN65HVD230 CAN board,3.3 V CAN transceiver for the ESP32. Remove its 120 Ω resistor,1,$10.99,$10.99,Needs to be purchased,https://www.amazon.com/dp/B00KM6XMXO
+LSM6DSV 6-DoF IMU breakout,"Body IMU, I²C/SPI, on-chip gravity vector",1,$12.99,$12.99,Needs to be purchased,https://www.amazon.com/dp/B0H8WQQDLN
+GH1.25 connectors and pre-crimped wire kit,JST-GH CAN cables between boards,1,$18.99,$18.99,Needs to be purchased,https://www.amazon.com/dp/B07PBHN7TM
+"Smart BMS 7–14S, 20 A, Bluetooth + UART","JBD board, wired charge-only. Balances and reports cell voltages",1,$21.00,$21.00,Needs to be purchased,https://www.amazon.com/dp/B0GLWR62NL
+50.4 V 1.5 A 12S Li-ion charger,"5.5 × 2.1 mm plug, about 3 h for a full charge",1,$19.99,$19.99,Needs to be purchased,https://www.amazon.com/dp/B076KJD4J5
+"DC 5.5 × 2.1 mm panel jack, 10 A (pack)",Robot charge port,1,$7.99,$7.99,Needs to be purchased,https://www.amazon.com/dp/B0BW8N7XZ7
+6S JST-XH balance extension leads (5 pcs),Cut to build the 13-wire BMS balance harness,1,$8.99,$8.99,Needs to be purchased,https://www.amazon.com/dp/B08L5WCH82
+ATO 58 V DC blade fuse kit (80 pcs),30 A main and 3 A logic fuses rated for 50.4 V,1,$19.99,$19.99,Needs to be purchased,https://www.amazon.com/dp/B0HBNFKQSV
+"Inline ATO fuse holder, 12 AWG (2 pack)",Main and logic branches. Discard the 32 V fuses it ships with,1,$5.39,$5.39,Needs to be purchased,https://www.amazon.com/dp/B0D9JLN9M1
+Amass XT90-S anti-spark connectors (5 pairs),Main power disconnect,1,$12.98,$12.98,Needs to be purchased,https://www.amazon.com/dp/B074PTHZ3M
+"22 mm mushroom e-stop, latching, 2 NC (2 pack)",Fail-safe stop read by the ESP32,1,$11.99,$11.99,Needs to be purchased,https://www.amazon.com/dp/B07R8PTTDX
+"DROK buck converter, 11–90 V in, 5 V 6 A out",Powers the Pi 4 from the pack,1,$17.99,$17.99,Needs to be purchased,https://www.amazon.com/dp/B0C4L66SZ9
+"USB-C male pigtail, 20 AWG, 5 A (2 pack)",Buck output into the Pi's USB-C port,1,$5.99,$5.99,Needs to be purchased,https://www.amazon.com/dp/B0HHK68YRS
+"XT30U pigtails, 16 AWG, 100 mm (5 pairs)",Power taps to the 10 motor boards,2,$7.19,$14.38,Needs to be purchased,https://www.amazon.com/dp/B0FDGN2M8F
+"14 AWG silicone wire, 10 ft red + 10 ft black",Battery leads and the power trunk down each leg,1,$9.99,$9.99,Needs to be purchased,https://www.amazon.com/dp/B0C5QY73WC
+TOTAL,,,,$431.61,,
