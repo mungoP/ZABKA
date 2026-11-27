@@ -198,7 +198,7 @@ void MX_ADC2_Init(void)
   /** Configure Regular Channel
   */
   LL_ADC_REG_SetSequencerRanks(ADC2, LL_ADC_REG_RANK_1, LL_ADC_CHANNEL_17);
-  LL_ADC_SetChannelSamplingTime(ADC2, LL_ADC_CHANNEL_17, LL_ADC_SAMPLINGTIME_2CYCLES_5);
+  LL_ADC_SetChannelSamplingTime(ADC2, LL_ADC_CHANNEL_17, LL_ADC_SAMPLINGTIME_247CYCLES_5);
   LL_ADC_SetChannelSingleDiff(ADC2, LL_ADC_CHANNEL_17, LL_ADC_SINGLE_ENDED);
   /* USER CODE BEGIN ADC2_Init 2 */
 
