@@ -38339,7 +38339,7 @@
 			(uuid "c9ca7444-f9a1-42b0-854b-97b3debfb1b3")
 		)
 		(embedded_fonts no)
-		(model "/Users/mungoshearer/Documents/projects/ZABKA/lib/kicad/zabka.3dshapes/SMC_L6.9-W5.9-LS7.9-RD.step"
+		(model "${KIPRJMOD}/../../lib/kicad/zabka.3dshapes/SMC_L6.9-W5.9-LS7.9-RD.step"
 			(offset
 				(xyz 0 0 0)
 			)

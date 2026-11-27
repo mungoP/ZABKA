@@ -1,16 +1,18 @@
 # macOS
 .DS_Store
 
-
-#KiCad
-.history/ 
+# KiCad
+.history/
 *-backups/
 _autosave-*
 *.lck
 ~*.lck
 fp-info-cache
+*.kicad_prl
+*-unsaved-export-*
+*.bak
 
-# Firmware builds 
+# Firmware builds
 build/
 *.uf2
 *.elf
@@ -18,13 +20,17 @@ build/
 *.hex
 *.map
 
+# ESP-IDF
+sdkconfig.old
+managed_components/
+
 # Editors
-.vscode/ 
+.vscode/
 .idea/
 
-# Python 
-__pychache__/
-.venv/ 
+# Python
+__pycache__/
+.venv/
 
 # Claude research notes and reports (local only)
 claude_research/

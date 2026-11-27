@@ -30,7 +30,7 @@
 	(fp_line (start 3.45 2.92) (end -3.45 2.92) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy -3.899992 -3.102407) (xy -3.899992 -1.772412) (xy -4.357192 -1.772412) (xy -4.357192 -3.102407) (xy -3.899992 -3.102407)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
 	(fp_poly (pts (xy -3.899992 3.102407) (xy -3.899992 1.772412) (xy -4.357192 1.772412) (xy -4.357192 3.102407) (xy -3.899992 3.102407)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
-	(model "lib/kicad/zabka.3dshapes/SMC_L6.9-W5.9-LS7.9-RD.wrl"
+	(model "${KIPRJMOD}/../../lib/kicad/zabka.3dshapes/SMC_L6.9-W5.9-LS7.9-RD.step"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
