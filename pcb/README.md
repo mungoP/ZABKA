@@ -13,7 +13,7 @@ KiCad 10 project for the ŻABKA motor controller board. One board mounts on the 
 | **Sensing**     | AS5047P magnetic encoder, bus voltage, board and motor temperature   |
 | **Interface**   | CAN (TCAN3414) on two JST-GH connectors, SWD on JST-GH               |
 
-The design is explained in [`docs/system_architecture.md`](../docs/system_architecture.md#motor-controller-board), and the CAN wiring and termination in [`docs/can_protocol.md`](../docs/can_protocol.md).
+The design is explained in [`docs/system_architecture.md`](../docs/system_architecture.md#motor-controller-board), and the CAN wiring and termination in [`docs/can_protocol.md`](../docs/can_protocol.md). The MCU pin map (which STSPIN32G4 pin drives which net) is in [`firmware/motor_controller/README.md`](../firmware/motor_controller/README.md#pin-map).
 
 ## Folder layout
 
