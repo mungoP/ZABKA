@@ -2,9 +2,15 @@
 
 **Zero-moment Assisted Bipedal Kinetic Android**
 
+By Mungo Prus-Shearer and Adam Chrostowski
+
 ŻABKA ("little frog" in Polish) is a DIY 3D-printed bipedal robot with custom FOC motor controllers on every joint. The current focus is the legs.
 
-![ŻABKA assembly](docs/images/assembly.png)
+<p align="center">
+  <img src="docs/images/assembly.png" alt="ŻABKA leg assembly" height="400">
+  <img src="docs/images/motor_board.png" alt="ŻABKA motor controller board" height="400">
+</p>
+<p align="center"><em>Left: leg assembly (Onshape). Right: motor controller board (KiCad).</em></p>
 
 ## Specs (planned)
 
