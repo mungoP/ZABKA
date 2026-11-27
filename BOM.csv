@@ -1,14 +1,34 @@
-Part,Price,Quantity,Total Price
-MAD 5008 170KV BLDC Motor,$75.99,10,$759.90
-6S Lipo Battery 4000mAh 22.2V,$122.99,1,$122.99
-,,,$0.00
-,,,$0.00
-,,,$0.00
-,,,$0.00
-,,,$0.00
-,,,$0.00
-,,,$0.00
-,,,$0.00
-,,,$0.00
-,,,$0.00
-,,,$0.00
+Category,Part,Description,Qty,Unit price,Total,Progress,Link
+Actuator,MAD 5008 170KV BLDC Motor,Joint motor,10,$75.99,$759.90,In hand,https://www.amazon.com/gp/product/B08GQ7CW82/ref=ewc_pr_img_2?smid=A68ZB174Q6ZDX&psc=1
+Actuator,Motor controller board (assembled),"ŻABKA 58 mm FOC board, one per motor. 10 boards cost $472.03 after tax and tariffs. Full BOM in docs/BOMs/motor_board_BOM.md",10,$47.20,$472.03,Ordered / shipping,
+Actuator,XT30PW-M power connector (J2),"Motor board back side, hand-soldered. LCSC C431092",10,$0.33,$3.28,Needs to be purchased,https://www.lcsc.com/product-detail/C431092.html
+Actuator,JST-GH 5-pin SWD connector (J1),"Motor board back side, hand-soldered. LCSC C189896",10,$0.24,$2.37,Needs to be purchased,https://www.lcsc.com/product-detail/C189896.html
+Actuator,220 µF 100 V electrolytic capacitor (C17),"Motor board bulk cap, back side, hand-soldered. 12.5 × 20 mm, LCSC C350119",10,$0.50,$5.01,Needs to be purchased,https://www.lcsc.com/product-detail/C350119.html
+Actuator,N35 diametric magnet 8 × 3 mm,Glued to the motor shaft for the AS5047P encoder,1,$8.99,$8.99,Needs to be purchased,https://www.amazon.com/100-Pack-Strong-Refrigerator-Magnets-Whiteboard/dp/B0DZ6GX6W2?crid=1HIAW5IVRGSU3&dib=eyJ2IjoiMSJ9.rNUUy5J3HU9hHdROklLAcjRuc5JHdPrJyBF4DXhzkzkEqfl0mN8s3YlBftANLGJ_jsznV6zqsrOYr_HCq1Npj2ZhYdmsJAep7vy8ShltS4LoDHKLtiIy97u6EZW4ckK0hlMa2p0I3zTFW-_DS_0lp7uzF_rPBVPBjW2zujc0omanfS6BGhn-VpD2RWx5NsZfV3Yekqb6XkdimeizsQIiGbhr1y54qeelkivpLQZa280.9-nsePQ5C4ycmtz5HUTDLDlO6xhA0mafwgH4uBczy7U&dib_tag=se&keywords=N35%2Bdiametric%2Bmagnet%2B8%2B%C3%97%2B3%2Bmm&qid=1795659838&sprefix=n35%2Bdiametric%2Bmagnet%2B8%2B3%2Bmm%2Caps%2C150&sr=8-1&th=1
+Actuator,MR74ZZ ball bearings 4 × 7 × 2.5 mm (10x) ,Small bearing,16,$8.64,$138.24,In hand,https://www.amazon.com/gp/product/B0CM6RYCC7/ref=ox_sc_act_title_1?smid=A30WUG2ZDGM0XM&psc=1
+Actuator,6809ZZ bearing 45 × 58 × 7 mm (10x) ,Large bearing,20,$21.39,$427.80,In hand,https://www.amazon.com/uxcell-45x58x7mm-Shielded-Precision-Lubricated/dp/B0D54MKJV5/ref=sr_1_3?crid=3ECZ6AGIJVCEK&dib=eyJ2IjoiMSJ9.MOIffwvWQLuFqo7MOV1ALZuHayjfcrm0Jd9CAyWTJp2rkzjBU6DU0RnfRkpc8w_nt_gZJUFZ8HkSOovuO1wG37ju-7K8WnZm2XINVluU1IVf6pxR6NDEHiTtzsDoYrEnBVSSgP-9Wjb4jfuqBqFHeIhNntaPUil8B0x12klT5Y4VmRluScuPrt81AVwVsecmuxLAzvFZU2zD8Hjn9fYO0UfxsHaJSt_QcEKJMsQ6MR0.oSy5hCmBevDgeH97XQaBO3qxvVCOxl1efRp058CB20Q&dib_tag=se&keywords=6809ZZ&qid=1793907919&sprefix=6809zz%2Caps%2C148&sr=8-3
+Actuator,6800ZZ ball bearings (10x) ,Medium bearing,2,$9.96,$19.92,In hand,https://www.amazon.com/gp/product/B0FSSBQ5PH/ref=ewc_pr_img_1?smid=A30WUG2ZDGM0XM&psc=1
+Actuator,"Stainless steel shoulder bolt, 4 mm dia, 14 mm (26x)",Shoulder bolt,4,$8.89,$35.56,In hand,https://www.amazon.com/MECCANIXITY-Stainless-Hydraulic-Injection-Industries/dp/B0FDQ2QXKB/ref=sr_1_2?crid=1BI2SARZFCMN4&dib=eyJ2IjoiMSJ9.4hrrzJLHhTZ9BVEmAN0P_B5lRrQ1u8jQfnQwOFpcKz5Sjey2gnKjUmLrYO4Pgsm80X7OxBrCa5teZBvElIuKsCJatNBVgniyWYivfFgOlezEgXVEWe3NOzIgzJ0WjNyRRekoIbtdbd024Fx8aHA4AY24ta8yRGlhUIlIBN3OkrPNT6JFddnZRg1k2W-T8GyhKlvKRzj7BsqX1cogFaFr3QtNG687-6FoZBW07Ldk0y0.xjDv1B0mCPs2GBaPRMGTPeoPNXuUH6ufi4PLw2eW6Hw&dib_tag=se&keywords=socket%2Bhead%2Bshoulder%2Bscrew%2B4mm%2Bdiameter%2B20mm%2Bshoulder%2Bsize&nsdOptOutParam=true&qid=1793887886&sprefix=socket%2Bhead%2Bshoulder%2Bscrew%2B4mm%2Bdiameter%2B20mm%2Bshoulder%2Bsiz%2Caps%2C99&sr=8-2&th=1
+Actuator,M4-0.7 × 65 mm button head socket cap screws (20x),Housing screw,4,$7.99,$31.96,In hand,https://www.amazon.com/M4-0-7-Button-Stainless-Machine-Hexagon/dp/B09HQL29KR/ref=sr_1_1_sspa?crid=1LRV6LX4PGUXN&dib=eyJ2IjoiMSJ9.jrPXvvQnzqVUzhn9qJQ-73m6SIfOoZyNLGDOvqfhLJjxDn9fKaUaB0d0BpOGK9ENyhhKbSP5VDFBj6pxQDQEeFg6jq9-pTANX0sGeYZu9euTyi5fJGvtuGLWBolASGy3hiaRtIpOPCf9RnuPr-WyTFeJp2GfGS7HfZyI5btfI9GMEVCjaUE-55BQQhmmPZfKmiN6p4CYtxQIJeruaOWrYbduwbDaiff2TPOvI5uwGr4.ZEa-Kqef0Cdl2ORsFmrePb7v_tI4UkcRQLuM5a4yLK8&dib_tag=se&keywords=65mm%2Bm4%2Bbolt%2Bbuttonhead&qid=1793999771&sprefix=65mm%2Bm4%2Bbolt%2Bbuttonhea%2Caps%2C139&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1
+Electronics,2 × 6S LiPo battery 4000 mAh 22.2 V,Two packs in series for 12S (50.4 V full),1,$122.99,$122.99,In hand,https://www.amazon.com/Zeee-4000mAh-Battery-Airplane-Helicopter/dp/B07ZYJJWCY/ref=sr_1_2_sspa?crid=36AFVYJ2ONXIE&dib=eyJ2IjoiMSJ9.wGttBl7GMvoJCc2tt-LEi_o-hsPGfVrJHGFRGieVxOziL2PAV7TBCiVTLkYRGjlbj-yf94-LvQEZq4jdHmbIW96kFGWsar8qM_TzjtamP8aUlBolEjydMB37uQztr6hBwSJYGIK0S2Li5jSMv9LXHMF_w8FgQ_9vkpEXyqDgqAUZurKdjCMjoaPl-sl2ljL0RVSCzAp4ls0OoQxTNUgfO--eQ-csrVw5wicVGVqFbbIm1SWCoDhMLPw1ARaF7O1Llw-WN0Skj5qKP2S3YfIMvSXsRwHJuQCtWL0XjWmvo-M.kWAGPUUk4rwqQofalEiaZC76jg1_3LuQsdHIgg_emPE&dib_tag=se&keywords=6s+4ahj&qid=1793759532&s=toys-and-games&sprefix=6s+4ahj%2Ctoys-and-games%2C94&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
+Electronics,Raspberry Pi 4,Runs the RL walking policy. Already owned,1,$99.99,$99.99,In hand,https://www.microcenter.com/product/637834/4_Model_B;_Broadcom_BCM2711_Quad_core_Cortex-A72_(ARM_v8)_64-bit_SoC;_4GB_DDR4_RAM?storeID=115
+Electronics,ESP32 C3,CAN bridge to the motor boards (built-in TWAI controller). Already owned,1,$8.99,$8.99,In hand,
+Electronics,Raspberry Pi Pico,"Backup CAN bridge, or a second CAN bus using can2040",1,,,In hand,
+Electronics,Waveshare SN65HVD230 CAN board,3.3 V CAN transceiver for the ESP32. Remove its 120 Ω resistor,1,$10.99,$10.99,Needs to be purchased,https://www.amazon.com/dp/B00KM6XMXO
+Electronics,LSM6DSV 6-DoF IMU breakout,"Body IMU, I²C/SPI, on-chip gravity vector",1,$12.99,$12.99,Needs to be purchased,https://www.amazon.com/dp/B0H8WQQDLN
+Electronics,GH1.25 connectors and pre-crimped wire kit,JST-GH CAN cables between boards,1,$18.99,$18.99,Needs to be purchased,https://www.amazon.com/dp/B07PBHN7TM
+Electronics,"Smart BMS 7–14S, 20 A, Bluetooth + UART","JBD board, wired charge-only. Balances and reports cell voltages",1,$21.00,$21.00,Needs to be purchased,https://www.amazon.com/dp/B0GLWR62NL
+Electronics,50.4 V 1.5 A 12S Li-ion charger,"5.5 × 2.1 mm plug, about 3 h for a full charge",1,$19.99,$19.99,Needs to be purchased,https://www.amazon.com/dp/B076KJD4J5
+Electronics,"DC 5.5 × 2.1 mm panel jack, 10 A (pack)",Robot charge port,1,$7.99,$7.99,Needs to be purchased,https://www.amazon.com/dp/B0BW8N7XZ7
+Electronics,6S JST-XH balance extension leads (5 pcs),Cut to build the 13-wire BMS balance harness,1,$8.99,$8.99,Needs to be purchased,https://www.amazon.com/dp/B08L5WCH82
+Electronics,ATO 58 V DC blade fuse kit (80 pcs),30 A main and 3 A logic fuses rated for 50.4 V,1,$19.99,$19.99,Needs to be purchased,https://www.amazon.com/dp/B0HBNFKQSV
+Electronics,"Inline ATO fuse holder, 12 AWG (2 pack)",Main and logic branches. Discard the 32 V fuses it ships with,1,$5.39,$5.39,Needs to be purchased,https://www.amazon.com/dp/B0D9JLN9M1
+Electronics,Amass XT90-S anti-spark connectors (5 pairs),Main power disconnect,1,$12.98,$12.98,Needs to be purchased,https://www.amazon.com/dp/B074PTHZ3M
+Electronics,"22 mm mushroom e-stop, latching, 2 NC (2 pack)",Fail-safe stop read by the ESP32,1,$11.99,$11.99,Needs to be purchased,https://www.amazon.com/dp/B07R8PTTDX
+Electronics,"DROK buck converter, 11–90 V in, 5 V 6 A out",Powers the Pi 4 from the pack,1,$17.99,$17.99,Needs to be purchased,https://www.amazon.com/dp/B0C4L66SZ9
+Electronics,"USB-C male pigtail, 20 AWG, 5 A (2 pack)",Buck output into the Pi's USB-C port,1,$5.99,$5.99,Needs to be purchased,https://www.amazon.com/dp/B0HHK68YRS
+Electronics,"XT30U pigtails, 16 AWG, 100 mm (5 pairs)",Power taps to the 10 motor boards,2,$7.19,$14.38,Needs to be purchased,https://www.amazon.com/dp/B0FDGN2M8F
+Electronics,"14 AWG silicone wire, 10 ft red + 10 ft black",Battery leads and the power trunk down each leg,1,$9.99,$9.99,Needs to be purchased,https://www.amazon.com/dp/B0C5QY73WC
+General,Overture PLA+ filament,3D printing,2,$13.99,$27.98,In hand,
+General,Overture PETG filament,3D printing,1,$12.48,$12.48,In hand,
+,TOTAL,,,,"$2,377.13",,
